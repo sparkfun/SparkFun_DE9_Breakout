@@ -153,6 +153,15 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "unconnected-(J1-TXD-Pad3)")
+	(net 2 "unconnected-(J1-DTR-Pad4)")
+	(net 3 "unconnected-(J1-DCD-Pad1)")
+	(net 4 "unconnected-(J1-RXD-Pad2)")
+	(net 5 "unconnected-(J1-DSR-Pad6)")
+	(net 6 "unconnected-(J1-RI-Pad9)")
+	(net 7 "unconnected-(J1-GND-Pad5)")
+	(net 8 "unconnected-(J1-CTS-Pad8)")
+	(net 9 "unconnected-(J1-RTS-Pad7)")
 	(footprint "SparkFun-Aesthetic:Creative_Commons_License"
 		(layer "F.Cu")
 		(uuid "0692362d-9561-40d6-a13a-ef3d2e88b747")
@@ -247,6 +256,1441 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(footprint "footprints:CONN_A-DS 09 A&slash_KG-T4S_ASM"
+		(layer "F.Cu")
+		(uuid "0f08f570-96e2-4992-b46d-ca69abbef515")
+		(at 132.890001 104.305002 90)
+		(tags "A-DS 09 A/KG-T4S ")
+		(property "Reference" "J1"
+			(at 0.2 19.6 90)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ef885df1-84bb-44c3-9399-310c6a08951f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "A-DS 09 A/KG-T4S"
+			(at 0 15.4 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "33923c0c-24df-4aaf-9210-81b79296457c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "A-DS 09 A/KG-T4S"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "485127ef-2b04-429a-a1c0-8331a51c2724")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4866bb5-5e57-4413-8194-5eca1a2a61f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "CONN_A-DS 09 A/KG-T4S_ASM")
+		(path "/e3fb77e2-8ae1-45f7-b291-5b484dd6abbb")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start 14.146 -6.223)
+			(end 14.146 -0.127)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6dbbd936-190c-4aca-a329-cb739482bbcd")
+		)
+		(fp_line
+			(start 10.844 -6.223)
+			(end 14.146 -6.223)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5435af45-e6dc-4322-8d6e-817f2d6587c6")
+		)
+		(fp_line
+			(start 8.5852 -6.223)
+			(end -8.5852 -6.223)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "807c6e4b-07e1-40f6-b5a2-152dd2a14203")
+		)
+		(fp_line
+			(start -8.5852 -6.223)
+			(end -8.5852 0.127)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2822d1f7-f5a6-463e-bc28-62e3a4c94073")
+		)
+		(fp_line
+			(start -10.844 -6.223)
+			(end -10.844 -0.127)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "01994ca8-18ec-41ac-8d07-8c5957f71b95")
+		)
+		(fp_line
+			(start -14.146 -6.223)
+			(end -10.844 -6.223)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9450506c-d1e0-4f88-9783-ee8c8e2a6aa3")
+		)
+		(fp_line
+			(start 15.5321 -0.127)
+			(end -15.5321 -0.127)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "65ff01ce-3d0b-430b-9a31-8d7044dd28e9")
+		)
+		(fp_line
+			(start 10.844 -0.127)
+			(end 10.844 -6.223)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e08352c5-ca39-4209-b90b-ad25f5ae506a")
+		)
+		(fp_line
+			(start -14.146 -0.127)
+			(end -14.146 -6.223)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6358cfdf-0635-4619-bc01-521067e65436")
+		)
+		(fp_line
+			(start -15.5321 -0.127)
+			(end -15.5321 12.6238)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2240a1a-a8b8-4be4-b122-d60378343e01")
+		)
+		(fp_line
+			(start 8.5852 0.127)
+			(end 8.5852 -6.223)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5bc9abf4-035a-4e81-9fc3-cf67cce74bd1")
+		)
+		(fp_line
+			(start -8.5852 0.127)
+			(end 8.5852 0.127)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "84be9bcd-2e5c-42c8-a495-2b4a76f3eab8")
+		)
+		(fp_line
+			(start 15.5321 12.6238)
+			(end 15.5321 -0.127)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ce613fb5-b4c1-4f60-a8dd-bae130101c7d")
+		)
+		(fp_line
+			(start -15.5321 12.6238)
+			(end 15.5321 12.6238)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "194c15cf-bf79-4bec-aaaa-86f2ef21394b")
+		)
+		(fp_line
+			(start 15.6591 -6.35)
+			(end -15.6591 -6.35)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "eff660ea-500e-4b01-8058-ba9eed5e5c9d")
+		)
+		(fp_line
+			(start -15.6591 -6.35)
+			(end -15.6591 12.7508)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a574a061-a990-41e7-8b58-ae711e5ac9c0")
+		)
+		(fp_line
+			(start 15.6591 12.7508)
+			(end 15.6591 -6.35)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "93aa6404-f595-41a7-a5e9-6ee63994a4bf")
+		)
+		(fp_line
+			(start -15.6591 12.7508)
+			(end 15.6591 12.7508)
+			(stroke
+				(width 0.1524)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "61002eed-6ad7-4e0e-bcf5-2809bf9a2574")
+		)
+		(fp_line
+			(start 14.019 -6.096)
+			(end 14.019 0)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "758dfeaf-56c1-49bc-b8cb-49a8b01353fb")
+		)
+		(fp_line
+			(start 13.257 -6.096)
+			(end 13.257 0)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "901a3453-eb41-4aeb-b5fb-1e46f6e4860f")
+		)
+		(fp_line
+			(start 10.971 -6.096)
+			(end 14.019 -6.096)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d6869f1a-9811-42b0-b5d5-2a10b19fbc9b")
+		)
+		(fp_line
+			(start 8.4582 -6.096)
+			(end -8.4582 -6.096)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ad50f0b2-277a-4939-816c-19c9df649577")
+		)
+		(fp_line
+			(start -8.4582 -6.096)
+			(end -8.4582 0)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5de8fd9a-2c22-46b5-8b1d-311aacc7f101")
+		)
+		(fp_line
+			(start -10.971 -6.096)
+			(end -10.971 0)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cea77f3e-a8f0-4f39-b89d-fd14bf1daf61")
+		)
+		(fp_line
+			(start -11.733 -6.096)
+			(end -11.733 0)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "79280a0c-9cbd-4706-9a52-084f47eae966")
+		)
+		(fp_line
+			(start -14.019 -6.096)
+			(end -10.971 -6.096)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7ca94420-c1c8-40bb-ad75-673a4a2bbb98")
+		)
+		(fp_line
+			(start 15.4051 0)
+			(end -15.4051 0)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "13bf66d8-ecaf-4ec2-b955-2c004435684f")
+		)
+		(fp_line
+			(start 11.733 0)
+			(end 11.733 -6.096)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "916b6fd1-05e8-457b-b057-fec0df7ca4d9")
+		)
+		(fp_line
+			(start 10.971 0)
+			(end 10.971 -6.096)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02c09ce8-0b57-42e9-82ae-2473632eeef0")
+		)
+		(fp_line
+			(start 8.4582 0)
+			(end 8.4582 -6.096)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4b8467d2-c69e-45dc-ba92-d0972ac08b59")
+		)
+		(fp_line
+			(start -8.4582 0)
+			(end 8.4582 0)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e7138fac-b4e4-4ee1-bc5e-25560bae1d19")
+		)
+		(fp_line
+			(start -13.257 0)
+			(end -13.257 -6.096)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "15c51a32-2e71-478e-994a-da8e5e01facb")
+		)
+		(fp_line
+			(start -14.019 0)
+			(end -14.019 -6.096)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "399e5c6c-c4fd-4081-8e53-a32bf4ae9eb1")
+		)
+		(fp_line
+			(start -15.4051 0)
+			(end -15.4051 12.4968)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dd3a247f-6407-47f4-9be9-51eb13db8271")
+		)
+		(fp_line
+			(start 15.4051 12.4968)
+			(end 15.4051 0)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1b1033ff-f3aa-4655-8d7c-4ba38cfc6d6e")
+		)
+		(fp_line
+			(start 6.174999 12.4968)
+			(end 5.539999 13.7668)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "13c97890-f30a-47f4-8637-62eab8ce408b")
+		)
+		(fp_line
+			(start 4.904999 12.4968)
+			(end 5.539999 13.7668)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "52ea18ab-a85a-4c19-ae2e-532f31f199d0")
+		)
+		(fp_line
+			(start -15.4051 12.4968)
+			(end 15.4051 12.4968)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "57ad934f-d533-474b-b8ed-579e09168181")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 17.6 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8e4bffba-99b7-40aa-b18d-2ba13a477cee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 5.539999 10.919998 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 3 "unconnected-(J1-DCD-Pad1)")
+			(pinfunction "DCD")
+			(pintype "passive")
+			(uuid "22640e6a-9347-4d58-81e0-eb0165af0ddb")
+		)
+		(pad "2" thru_hole circle
+			(at 2.77 10.919998 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 4 "unconnected-(J1-RXD-Pad2)")
+			(pinfunction "RXD")
+			(pintype "passive")
+			(uuid "3cf2807d-d987-4ccc-aabc-132f7aa89804")
+		)
+		(pad "3" thru_hole circle
+			(at 0 10.919998 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "unconnected-(J1-TXD-Pad3)")
+			(pinfunction "TXD")
+			(pintype "passive")
+			(uuid "0c40eacd-2625-4fb7-a746-fbfb4cc6aef9")
+		)
+		(pad "4" thru_hole circle
+			(at -2.77 10.919998 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 2 "unconnected-(J1-DTR-Pad4)")
+			(pinfunction "DTR")
+			(pintype "passive")
+			(uuid "1c90a5bc-8b1a-4427-8ae0-1deff7a6a64c")
+		)
+		(pad "5" thru_hole circle
+			(at -5.539999 10.919998 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "unconnected-(J1-GND-Pad5)")
+			(pinfunction "GND")
+			(pintype "power_out")
+			(uuid "7b5b4cfe-6a9b-4777-83e9-c3defc4e6674")
+		)
+		(pad "6" thru_hole circle
+			(at 4.155001 8.079999 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 5 "unconnected-(J1-DSR-Pad6)")
+			(pinfunction "DSR")
+			(pintype "passive")
+			(uuid "417ef4e4-3a77-4e3a-92e4-25183ba155dd")
+		)
+		(pad "7" thru_hole circle
+			(at 1.385001 8.079999 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 9 "unconnected-(J1-RTS-Pad7)")
+			(pinfunction "RTS")
+			(pintype "passive")
+			(uuid "d3163856-92c6-4538-baf3-a2de03b37360")
+		)
+		(pad "8" thru_hole circle
+			(at -1.384998 8.079999 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "unconnected-(J1-CTS-Pad8)")
+			(pinfunction "CTS")
+			(pintype "passive")
+			(uuid "84e96247-8b65-4da0-a46f-6e1c2e59df97")
+		)
+		(pad "9" thru_hole circle
+			(at -4.154998 8.079999 90)
+			(size 1.4986 1.4986)
+			(drill 0.9906)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 6 "unconnected-(J1-RI-Pad9)")
+			(pinfunction "RI")
+			(pintype "passive")
+			(uuid "6f0582f4-c34f-4e42-a481-09526f7809ed")
+		)
+		(pad "10" thru_hole circle
+			(at -12.495 9.499998 90)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "d24ec7df-2463-44d4-adb5-085a4bad0ffe")
+		)
+		(pad "11" thru_hole circle
+			(at 12.495 9.499998 90)
+			(size 3.048 3.048)
+			(drill 3.048)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(uuid "b15be38c-7911-4790-a0af-4c0e984ac768")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "4355b7b4-4862-4334-8444-9365b7abb1b1")
+		(at 128.256 72.602)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "SparkFun fiducial")
+		(property "Reference" "FID1"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "2eace3a9-9b67-489c-8d6b-3d1d37bddb90")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "07406854-07a0-4000-b364-298083b2000e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e336ae8-2292-4652-a665-99d778f5e068")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a329ad33-247a-4aaf-bffb-a15dc2c594d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/a7ec6cc9-20f8-4a12-9541-29a9be25ae1c")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0336a8c6-a08e-43ce-93e8-963da6c93184")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e4975c2d-8a9d-409f-b63a-e1e4a4431abf")
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(clearance 0.25)
+			(uuid "4ce9b2fe-abe5-464a-b760-97a859623282")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Hardware:Standoff"
+		(layer "F.Cu")
+		(uuid "6e9a26b7-e14a-4dce-8b5f-969253d5d324")
+		(at 138.97 84.36)
+		(tags "SparkFun")
+		(property "Reference" "ST4"
+			(at 0 -2.032 0)
+			(layer "F.Fab")
+			(uuid "903a8d81-b467-4301-b5b3-bfcc6009c9cf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Stand_off"
+			(at 0 2.032 0)
+			(layer "F.Fab")
+			(uuid "6ba40df4-ac55-4c4b-9337-63682f531997")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd5d52b0-8694-4fff-9b99-7435d44c5f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7c6240c-ce1e-4d95-a06f-43e556bb6150")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/56277993-b69c-4076-80f1-028732d58d81")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(fp_circle
+			(center 0 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "16299428-a85c-42ad-91a9-dde3272a6229")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.1 3.1)
+			(drill 3.1)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "9813373a-b33e-43b6-9b80-c23d4b418bef")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SparkFun-Hardware:Standoff"
+		(layer "F.Cu")
+		(uuid "9985870a-b8be-4810-84fb-4e01750cabb4")
+		(at 123.67 74.646)
+		(tags "SparkFun")
+		(property "Reference" "ST1"
+			(at 0 -2.032 0)
+			(layer "F.Fab")
+			(uuid "ddc8f4e8-5a32-4988-9dde-ad38ec949e9d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Stand_off"
+			(at 0 2.032 0)
+			(layer "F.Fab")
+			(uuid "68683fb6-e06c-4fcd-b072-605a07f40524")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24d1e809-48b2-4a0b-a924-3dd7bba95f2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a878fd9-a0a6-43de-b64c-6f840e717c66")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/6685cf0a-6943-4c54-8d4f-b9f189ce2a54")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(fp_circle
+			(center 0 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bd97d9d2-2b8d-427d-88e5-2ab1b979d553")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.1 3.1)
+			(drill 3.1)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "7828141c-9bec-427c-94a3-bf6405511c64")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "a3732b1a-8fe9-4bdb-bb3b-dd4d17d19d91")
+		(at 128.256 75.152)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "SparkFun fiducial")
+		(property "Reference" "FID2"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "84a3f3cf-e8ee-4198-9ccb-2e52b3dc6106")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "de9ad7a4-d104-419d-a7d8-003f5e15c594")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa972549-e21e-42b7-852b-3c3c0205f7d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fefbe8bd-33fd-48be-afcd-077ab27b9651")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/8a112979-36f8-4a6b-b258-9444d791641a")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7107c420-2d74-4445-ab7d-b1483dc55375")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e43c08d7-1359-4ab6-8547-17e2d7b5b835")
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(clearance 0.25)
+			(uuid "6b216083-d6c5-4c8a-b96e-9206ff8f784a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Hardware:Standoff"
+		(layer "F.Cu")
+		(uuid "aba226a9-729a-4c6d-a51a-04bff322ef43")
+		(at 140.57 125.06)
+		(tags "SparkFun")
+		(property "Reference" "ST3"
+			(at 0 -2.032 0)
+			(layer "F.Fab")
+			(uuid "c5bb14ae-e5a7-43cf-a2ab-e74ab2b03826")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Stand_off"
+			(at 0 2.032 0)
+			(layer "F.Fab")
+			(uuid "48f226b8-5fe2-4229-84ce-97939a2c5bcb")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "173d6bfa-237c-49de-99fc-a0a254a2d51e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f4063ad-3e76-44e1-a494-f207645459b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/7c6696af-f8ea-4dc6-9a32-3bca233b1d03")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(fp_circle
+			(center 0 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "606ca512-5fbe-46f0-a29e-1e164d6b7b96")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.1 3.1)
+			(drill 3.1)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "7e9b0c40-0e25-47a2-ad06-d69e105c2639")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "cd5ce1ab-c287-4bf4-84f0-29411f8d995d")
+		(at 161.77 125.06)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "SparkFun fiducial")
+		(property "Reference" "FID4"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "9c7f8d84-79fc-4dd9-9464-5301aa11f691")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "5b0314ae-23c3-4431-8b67-85da95771352")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09f10a95-5ca2-4323-ae79-44dae923739b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc69353e-7927-429f-bd31-17bd1b5ba349")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/7a72b518-2fca-4a85-8df7-c0d3aac86170")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1419392e-8632-441f-8c11-15ea71a6626d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a8f9f346-ea2c-418b-8cb7-3cf97d7018e6")
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(clearance 0.25)
+			(uuid "07ee7acc-455b-4f8d-b4e4-4566f8992a74")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "d3d3329a-681e-48f0-8a6d-ecc3c9c3fbaa")
+		(at 143.67 83.21)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "SparkFun fiducial")
+		(property "Reference" "FID3"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "c0816a66-8cf9-4962-903a-5813fbd3d19f")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "b86fcfb6-91f5-418a-af1f-0e606e3b1f0b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c82f40b-987d-4083-af6d-6229bb11f551")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27dafe63-6a82-491d-8387-a1c4f04809c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/dc433178-d09e-452f-afc5-9f3f7047a6a6")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b237b7ac-5cf1-4d5f-8d0e-8ba1c7bfd65e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "416b5d7a-2f38-49f8-93c2-8e4c9dd56ad2")
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(clearance 0.25)
+			(uuid "69eb6e3b-4068-4f7d-9a71-86c385c5fbff")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Hardware:Standoff"
+		(layer "F.Cu")
+		(uuid "f0eeb4b5-5d7c-4ba5-b98d-198876dd8c8c")
+		(at 123.67 81.284)
+		(tags "SparkFun")
+		(property "Reference" "ST2"
+			(at 0 -2.032 0)
+			(layer "F.Fab")
+			(uuid "21f3b64c-9bfd-4aad-bef8-56ccb60a25b6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Stand_off"
+			(at 0 2.032 0)
+			(layer "F.Fab")
+			(uuid "6f776c10-412c-4c72-acc5-499d6bc6e1c4")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "519af7a0-4c2d-4540-a847-fe8c978942ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ac7cd98-df4e-48ba-bfba-8f47a05c530e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/01446c66-91f5-46d5-b726-b2bbfbf726eb")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(fp_circle
+			(center 0 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "98687e2c-be17-4101-89d6-0b9bb82f6551")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.1 3.1)
+			(drill 3.1)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "814460f9-b4ae-44f0-a95e-acdcbfed0bd3")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(gr_text "Inner Copper Weight: 0.5oz"
 		(at 226.06 184.96 0)
