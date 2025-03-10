@@ -1,0 +1,1228 @@
+(kicad_pcb
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "USLetter")
+	(title_block
+		(title "SparkFun Product (Qwiic)")
+		(rev "v10")
+		(company "SparkFun")
+		(comment 1 "Designed by: You")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(4 "In1.Cu" signal "L2.Cu")
+		(6 "In2.Cu" signal "L3.Cu")
+		(2 "B.Cu" signal)
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "Measures")
+		(19 "Cmts.User" user "V-score")
+		(21 "Eco1.User" user "Fab.Info")
+		(23 "Eco2.User" user "License.Info")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user "F.Outlines")
+		(33 "B.Fab" user "B.Outlines")
+		(39 "User.1" user "Milling")
+		(41 "User.2" user "Design.Info")
+		(43 "User.3" user "Board.Properties")
+		(45 "User.4" user "Selective.Solder")
+		(47 "User.5" user "Enclosure.Info")
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "#FFFFFFFF")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "#E0311DD4")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "#E0311DD4")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "#FFFFFFFF")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0.05)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
+		(aux_axis_origin 115.57 124.46)
+		(grid_origin 115.57 124.46)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "SparkFun-Aesthetic:Creative_Commons_License"
+		(layer "F.Cu")
+		(uuid "0692362d-9561-40d6-a13a-ef3d2e88b747")
+		(at 215.265 168.91)
+		(tags "SparkFun Creative Commons License")
+		(property "Reference" "G3"
+			(at 0 -5.08 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26be38d2-6560-4458-b7de-b9bde9ace5ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OSHW_Logo"
+			(at 0 2.794 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60292d87-906b-4c81-bc11-4386388d3eae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43882d91-f2a1-4877-8900-c521d3ee7ad0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13a9022e-650c-4728-9e35-5b9796904ab3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bd575d8-d68f-400f-b874-0b74cdc92c02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/a21e6db0-b885-4793-a405-9dcb22fe3734")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr exclude_from_bom)
+		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
+			(at 0 1.27 0)
+			(layer "Eco2.User")
+			(uuid "7b814ab9-c21e-4741-9c1c-85f540df076e")
+			(effects
+				(font
+					(size 1.63576 1.63576)
+					(thickness 0.14224)
+				)
+				(justify bottom)
+			)
+		)
+		(fp_text user "Released under the Creative Commons Attribution Share-Alike 4.0 License"
+			(at 0 -1.27 0)
+			(layer "Eco2.User")
+			(uuid "ed799c29-f063-4aaa-9eb3-08cd52d55cf3")
+			(effects
+				(font
+					(size 1.63576 1.63576)
+					(thickness 0.14224)
+				)
+				(justify bottom)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "4355b7b4-4862-4334-8444-9365b7abb1b1")
+		(at 128.256 72.602)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "SparkFun fiducial")
+		(property "Reference" "FID1"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "2eace3a9-9b67-489c-8d6b-3d1d37bddb90")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "07406854-07a0-4000-b364-298083b2000e")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e336ae8-2292-4652-a665-99d778f5e068")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a329ad33-247a-4aaf-bffb-a15dc2c594d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/a7ec6cc9-20f8-4a12-9541-29a9be25ae1c")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0336a8c6-a08e-43ce-93e8-963da6c93184")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e4975c2d-8a9d-409f-b63a-e1e4a4431abf")
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(clearance 0.25)
+			(uuid "4ce9b2fe-abe5-464a-b760-97a859623282")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Hardware:Standoff"
+		(layer "F.Cu")
+		(uuid "6e9a26b7-e14a-4dce-8b5f-969253d5d324")
+		(at 123.67 94.56)
+		(tags "SparkFun")
+		(property "Reference" "ST4"
+			(at 0 -2.032 0)
+			(layer "F.Fab")
+			(uuid "903a8d81-b467-4301-b5b3-bfcc6009c9cf")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Stand_off"
+			(at 0 2.032 0)
+			(layer "F.Fab")
+			(uuid "6ba40df4-ac55-4c4b-9337-63682f531997")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd5d52b0-8694-4fff-9b99-7435d44c5f04")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7c6240c-ce1e-4d95-a06f-43e556bb6150")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/56277993-b69c-4076-80f1-028732d58d81")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(fp_circle
+			(center 0 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "16299428-a85c-42ad-91a9-dde3272a6229")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.1 3.1)
+			(drill 3.1)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "9813373a-b33e-43b6-9b80-c23d4b418bef")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SparkFun-Hardware:Standoff"
+		(layer "F.Cu")
+		(uuid "9985870a-b8be-4810-84fb-4e01750cabb4")
+		(at 123.67 74.646)
+		(tags "SparkFun")
+		(property "Reference" "ST1"
+			(at 0 -2.032 0)
+			(layer "F.Fab")
+			(uuid "ddc8f4e8-5a32-4988-9dde-ad38ec949e9d")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Stand_off"
+			(at 0 2.032 0)
+			(layer "F.Fab")
+			(uuid "68683fb6-e06c-4fcd-b072-605a07f40524")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24d1e809-48b2-4a0b-a924-3dd7bba95f2c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a878fd9-a0a6-43de-b64c-6f840e717c66")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/6685cf0a-6943-4c54-8d4f-b9f189ce2a54")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(fp_circle
+			(center 0 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "bd97d9d2-2b8d-427d-88e5-2ab1b979d553")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.1 3.1)
+			(drill 3.1)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "7828141c-9bec-427c-94a3-bf6405511c64")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "a3732b1a-8fe9-4bdb-bb3b-dd4d17d19d91")
+		(at 128.256 75.152)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "SparkFun fiducial")
+		(property "Reference" "FID2"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "84a3f3cf-e8ee-4198-9ccb-2e52b3dc6106")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "de9ad7a4-d104-419d-a7d8-003f5e15c594")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa972549-e21e-42b7-852b-3c3c0205f7d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fefbe8bd-33fd-48be-afcd-077ab27b9651")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/8a112979-36f8-4a6b-b258-9444d791641a")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "7107c420-2d74-4445-ab7d-b1483dc55375")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "e43c08d7-1359-4ab6-8547-17e2d7b5b835")
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(clearance 0.25)
+			(uuid "6b216083-d6c5-4c8a-b96e-9206ff8f784a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Hardware:Standoff"
+		(layer "F.Cu")
+		(uuid "aba226a9-729a-4c6d-a51a-04bff322ef43")
+		(at 123.67 87.922)
+		(tags "SparkFun")
+		(property "Reference" "ST3"
+			(at 0 -2.032 0)
+			(layer "F.Fab")
+			(uuid "c5bb14ae-e5a7-43cf-a2ab-e74ab2b03826")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Stand_off"
+			(at 0 2.032 0)
+			(layer "F.Fab")
+			(uuid "48f226b8-5fe2-4229-84ce-97939a2c5bcb")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "173d6bfa-237c-49de-99fc-a0a254a2d51e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f4063ad-3e76-44e1-a494-f207645459b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/7c6696af-f8ea-4dc6-9a32-3bca233b1d03")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(fp_circle
+			(center 0 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "606ca512-5fbe-46f0-a29e-1e164d6b7b96")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.1 3.1)
+			(drill 3.1)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "7e9b0c40-0e25-47a2-ad06-d69e105c2639")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "cd5ce1ab-c287-4bf4-84f0-29411f8d995d")
+		(at 128.256 80.252)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "SparkFun fiducial")
+		(property "Reference" "FID4"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "9c7f8d84-79fc-4dd9-9464-5301aa11f691")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "5b0314ae-23c3-4431-8b67-85da95771352")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09f10a95-5ca2-4323-ae79-44dae923739b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc69353e-7927-429f-bd31-17bd1b5ba349")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/7a72b518-2fca-4a85-8df7-c0d3aac86170")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1419392e-8632-441f-8c11-15ea71a6626d")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "a8f9f346-ea2c-418b-8cb7-3cf97d7018e6")
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(clearance 0.25)
+			(uuid "07ee7acc-455b-4f8d-b4e4-4566f8992a74")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
+		(layer "F.Cu")
+		(uuid "d3d3329a-681e-48f0-8a6d-ecc3c9c3fbaa")
+		(at 128.256 77.702)
+		(descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
+		(tags "SparkFun fiducial")
+		(property "Reference" "FID3"
+			(at 0 -1.5 0)
+			(layer "F.Fab")
+			(uuid "c0816a66-8cf9-4962-903a-5813fbd3d19f")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "Fiducial_0.5mm"
+			(at 0 1.5 0)
+			(layer "F.Fab")
+			(uuid "b86fcfb6-91f5-418a-af1f-0e606e3b1f0b")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c82f40b-987d-4083-af6d-6229bb11f551")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "27dafe63-6a82-491d-8387-a1c4f04809c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/dc433178-d09e-452f-afc5-9f3f7047a6a6")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(attr smd)
+		(fp_circle
+			(center 0 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "b237b7ac-5cf1-4d5f-8d0e-8ba1c7bfd65e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "416b5d7a-2f38-49f8-93c2-8e4c9dd56ad2")
+		)
+		(pad "" smd circle
+			(at 0 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(clearance 0.25)
+			(uuid "69eb6e3b-4068-4f7d-9a71-86c385c5fbff")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "SparkFun-Hardware:Standoff"
+		(layer "F.Cu")
+		(uuid "f0eeb4b5-5d7c-4ba5-b98d-198876dd8c8c")
+		(at 123.67 81.284)
+		(tags "SparkFun")
+		(property "Reference" "ST2"
+			(at 0 -2.032 0)
+			(layer "F.Fab")
+			(uuid "21f3b64c-9bfd-4aad-bef8-56ccb60a25b6")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Stand_off"
+			(at 0 2.032 0)
+			(layer "F.Fab")
+			(uuid "6f776c10-412c-4c72-acc5-499d6bc6e1c4")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+				(justify top)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "519af7a0-4c2d-4540-a847-fe8c978942ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ac7cd98-df4e-48ba-bfba-8f47a05c530e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Fiducial*")
+		(path "/01446c66-91f5-46d5-b726-b2bbfbf726eb")
+		(sheetname "/")
+		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
+		(fp_circle
+			(center 0 0)
+			(end 2.794 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "98687e2c-be17-4101-89d6-0b9bb82f6551")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.1 3.1)
+			(drill 3.1)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "814460f9-b4ae-44f0-a95e-acdcbfed0bd3")
+		)
+		(embedded_fonts no)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Screw_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 -90 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_4-40.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Hardware/Nut_M3.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 -2.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_text "Inner Copper Weight: 0.5oz"
+		(at 226.06 184.96 0)
+		(layer "Eco1.User")
+		(uuid "2858baea-d1cb-450e-a190-d2dfb264688f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Layers: 2"
+		(at 195.530892 182.88 0)
+		(layer "Eco1.User")
+		(uuid "3e3e79eb-b788-47f5-881c-1fb99efebd70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Silkscreen Color: White"
+		(at 195.58 180.975 0)
+		(layer "Eco1.User")
+		(uuid "408794df-6a1f-4d49-ad77-af2bb4848f3a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Solder Mask: Red"
+		(at 195.58 179.07 0)
+		(layer "Eco1.User")
+		(uuid "43d88d1a-0789-427f-bc72-baa547f83bc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Material: TG135"
+		(at 226.06 180.975 0)
+		(layer "Eco1.User")
+		(uuid "4d08fef1-8855-4d24-8630-784a96fa9f21")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Outer Copper Weight: 1oz"
+		(at 225.97 182.86 0)
+		(layer "Eco1.User")
+		(uuid "8323c34b-eb6a-43a8-9e82-056debb9a918")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Thickness: 1.6mm"
+		(at 195.58 184.785 0)
+		(layer "Eco1.User")
+		(uuid "8f722034-12e2-4580-80af-36cab437e75e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Finish: HASL Lead Free "
+		(at 195.58 186.69 0)
+		(layer "Eco1.User")
+		(uuid "bd7a27a4-955e-4d56-8275-86699208e261")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Ordering Notes"
+		(at 189.23 175.895 0)
+		(layer "Eco1.User")
+		(uuid "c9e97bfa-9240-4cf3-a2e5-7c247c1a73cb")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(embedded_fonts no)
+)
