@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:CONN_A-DS 09 A&slash_KG-T4S_ASM"
+		(property "Footprint" "DB9_Footprint:DB9"
 			(at -1.016 -17.018 0)
 			(effects
 				(font

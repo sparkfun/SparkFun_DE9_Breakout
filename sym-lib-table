@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "2025-03-10_17-10-03")(type "KiCad")(uri "${KIPRJMOD}/DB9_Footprint/male/2025-03-10_17-10-03.kicad_sym")(options "")(descr ""))
+  (lib (name "DB9-Female")(type "KiCad")(uri "${KIPRJMOD}/DB9_Footprint/DB9-Female.kicad_sym")(options "")(descr ""))
+  (lib (name "DB9-Male")(type "KiCad")(uri "${KIPRJMOD}/DB9_Footprint/DB9-Male.kicad_sym")(options "")(descr ""))
 )

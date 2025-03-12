@@ -11,7 +11,7 @@
 		(comment 1 "Designed by: Elias Santistevan")
 	)
 	(lib_symbols
-		(symbol "2025-03-10_17-10-03:A-DS_09_A_KG-T4S"
+		(symbol "2025-03-10_17-10-03:DE9-Male"
 			(pin_names
 				(offset 0.254)
 			)
@@ -26,8 +26,8 @@
 					)
 				)
 			)
-			(property "Value" "A-DS 09 A/KG-T4S"
-				(at -0.762 -15.748 0)
+			(property "Value" "DE9-Male"
+				(at -0.762 -13.716 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -35,7 +35,7 @@
 				)
 			)
 			(property "Footprint" "footprints:CONN_A-DS 09 A&slash_KG-T4S_ASM"
-				(at -1.016 -18.034 0)
+				(at -1.016 -17.018 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -43,8 +43,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "A-DS 09 A/KG-T4S"
-				(at -1.778 -20.32 0)
+			(property "Datasheet" ""
+				(at -1.778 -19.304 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -80,118 +80,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "A-DS_09_A_KG-T4S_0_1"
+			(symbol "DE9-Male_0_1"
 				(polyline
 					(pts
-						(xy -3.81 10.16) (xy -2.54 10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 7.62) (xy 0.508 7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -2.54 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 2.54) (xy 0.508 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -2.54) (xy 0.508 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -7.62) (xy 0.508 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -10.16) (xy -2.54 -10.16)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -13.335) (xy -3.81 13.335) (xy 3.81 9.525) (xy 3.81 -9.525) (xy -3.81 -13.335)
+						(xy -3.81 -10.16) (xy -3.81 12.7) (xy 3.81 12.7) (xy 3.81 -10.16) (xy -3.81 -10.16)
 					)
 					(stroke
 						(width 0.254)
@@ -201,118 +93,19 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -1.778 10.16)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 5.08)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 -5.08)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -1.778 -10.16)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 7.62)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -2.54)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -7.62)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "A-DS_09_A_KG-T4S_1_1"
-				(pin power_out line
-					(at -7.62 10.16 0)
+			(symbol "DE9-Male_1_1"
+				(pin passive line
+					(at -7.62 11.43 0)
 					(length 3.81)
-					(name "GND"
+					(name "DCD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -321,97 +114,7 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 7.62 0)
-					(length 3.81)
-					(name "RI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 5.08 0)
-					(length 3.81)
-					(name "DTR"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "CTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 3.81)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "RTS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -5.08 0)
+					(at -7.62 8.89 0)
 					(length 3.81)
 					(name "RXD"
 						(effects
@@ -429,7 +132,43 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -7.62 0)
+					(at -7.62 6.35 0)
+					(length 3.81)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 3.81 0)
+					(length 3.81)
+					(name "DTR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 1.27 0)
 					(length 3.81)
 					(name "DSR"
 						(effects
@@ -447,16 +186,70 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -10.16 0)
+					(at -7.62 -1.27 0)
 					(length 3.81)
-					(name "DCD"
+					(name "RTS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -3.81 0)
+					(length 3.81)
+					(name "CTS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -6.35 0)
+					(length 3.81)
+					(name "RI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -7.62 -8.89 0)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -465,7 +258,7 @@
 					)
 				)
 			)
-			(symbol "A-DS_09_A_KG-T4S_1_2"
+			(symbol "DE9-Male_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -22.86)
@@ -2417,6 +2210,99 @@
 		)
 	)
 	(symbol
+		(lib_id "2025-03-10_17-10-03:DE9-Male")
+		(at 132.08 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25454559-0a4e-45de-9b3b-b464338c0341")
+		(property "Reference" "J1"
+			(at 137.16 101.5999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DE9-Male"
+			(at 137.16 104.1399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CONN_A-DS 09 A&slash_KG-T4S_ASM"
+			(at 137.16 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.302 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "112575da-0640-41d8-9eaf-d288a64dd585")
+		)
+		(pin "7"
+			(uuid "4618b084-0833-42e3-b14b-78484ed6ec54")
+		)
+		(pin "6"
+			(uuid "980e8373-fcdc-48c3-9828-46baa70a6a27")
+		)
+		(pin "4"
+			(uuid "24f20de7-9c6a-4629-9a6f-c08f9972dffa")
+		)
+		(pin "2"
+			(uuid "95623d0a-fc11-493b-90a0-cb182002ed7d")
+		)
+		(pin "1"
+			(uuid "ae4c1ef9-9b81-45a3-840c-0f8454a99435")
+		)
+		(pin "8"
+			(uuid "a2ab4b74-0705-4af0-a9d5-73aa11ef89e4")
+		)
+		(pin "5"
+			(uuid "e72d1283-fbe6-42be-91fd-7ed10414572c")
+		)
+		(pin "3"
+			(uuid "4fdc4cdf-29ea-4195-a9cf-efde19f1640c")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Hardware:Standoff")
 		(at 254 179.07 0)
 		(unit 1)
@@ -3049,99 +2935,6 @@
 			(project "SparkFun_Default_KiCad_Setup"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "FID3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2025-03-10_17-10-03:A-DS_09_A_KG-T4S")
-		(at 133.35 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e3fb77e2-8ae1-45f7-b291-5b484dd6abbb")
-		(property "Reference" "J1"
-			(at 138.43 97.7899 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "A-DS 09 A/KG-T4S"
-			(at 138.43 100.3299 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CONN_A-DS 09 A&slash_KG-T4S_ASM"
-			(at 138.43 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "A-DS 09 A/KG-T4S"
-			(at 131.572 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 133.35 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "cd044477-f774-463c-9d9f-9e13d83cd1bd")
-		)
-		(pin "6"
-			(uuid "9aaae02f-dd2d-48b2-8bc8-e77b707905b3")
-		)
-		(pin "1"
-			(uuid "19435aa8-aadb-42c4-ad4b-c2d666d94bc5")
-		)
-		(pin "2"
-			(uuid "0436f177-26fc-40b5-9911-c64c715098a6")
-		)
-		(pin "7"
-			(uuid "98a46c63-773e-45fb-b1fe-7a4156365e44")
-		)
-		(pin "3"
-			(uuid "86414acf-33a1-45de-b262-fb4912de6d7b")
-		)
-		(pin "8"
-			(uuid "697b0c74-565f-4913-a600-8089a2d82259")
-		)
-		(pin "4"
-			(uuid "5abc885c-569d-4c47-9f7d-9259c212dd06")
-		)
-		(pin "9"
-			(uuid "1d166812-a863-4794-976b-a725588dbd50")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J1")
 					(unit 1)
 				)
 			)

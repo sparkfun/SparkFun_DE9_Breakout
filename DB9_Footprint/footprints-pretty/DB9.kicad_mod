@@ -1,4 +1,4 @@
-(footprint "CONN_A-DS 09 A&slash_KG-T4S_ASM"
+(footprint "DB9"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "CONN_A-DS_09_A/KG-T4S_ASM"
+	(property "Value" "DB9 Connector"
 		(at 0 15.4 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)

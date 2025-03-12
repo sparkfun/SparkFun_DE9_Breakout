@@ -274,7 +274,7 @@
 				)
 			)
 		)
-		(property "Value" "A-DS 09 A/KG-T4S"
+		(property "Value" "DE9-Male"
 			(at 0 15.4 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -286,7 +286,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "A-DS 09 A/KG-T4S"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -311,7 +311,7 @@
 			)
 		)
 		(property ki_fp_filters "CONN_A-DS 09 A/KG-T4S_ASM")
-		(path "/e3fb77e2-8ae1-45f7-b291-5b484dd6abbb")
+		(path "/25454559-0a4e-45de-9b3b-b464338c0341")
 		(sheetname "/")
 		(sheetfile "SparkFun_DB9_Breakout.kicad_sch")
 		(attr through_hole)
