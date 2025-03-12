@@ -534,4 +534,15 @@
 		(uuid "988b4203-a913-4d89-9d32-091d39b5767d")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/DB9_Footprint/DB9-Female.step"
+		(offset
+			(xyz 0 2 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
 )
