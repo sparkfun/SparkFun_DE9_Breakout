@@ -2580,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 102.87) (xy 73.66 102.87)
+			(xy 69.85 82.55) (xy 73.66 82.55)
 		)
 		(stroke
 			(width 0.2286)
@@ -2590,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 73.66 85.09)
+			(xy 69.85 100.33) (xy 73.66 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2600,7 +2600,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 97.79) (xy 73.66 97.79)
+			(xy 69.85 87.63) (xy 73.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2620,7 +2620,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 87.63) (xy 73.66 87.63)
+			(xy 69.85 97.79) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2630,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 90.17) (xy 73.66 90.17)
+			(xy 69.85 95.25) (xy 73.66 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2640,7 +2640,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 73.66 95.25)
+			(xy 69.85 90.17) (xy 73.66 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2650,7 +2650,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 73.66 82.55)
+			(xy 69.85 102.87) (xy 73.66 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 100.33) (xy 73.66 100.33)
+			(xy 69.85 85.09) (xy 73.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3327,7 @@
 		)
 	)
 	(label "4"
-		(at 71.12 95.25 0)
+		(at 71.12 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3337,7 +3337,7 @@
 		(uuid "0c9a1472-59a6-4411-8c44-130ebb841294")
 	)
 	(label "3"
-		(at 71.12 97.79 0)
+		(at 71.12 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3347,7 +3347,7 @@
 		(uuid "12178b2b-16e0-4504-bc4c-72ef35f1d624")
 	)
 	(label "9"
-		(at 71.12 82.55 0)
+		(at 71.12 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3367,7 +3367,7 @@
 		(uuid "6f11d6ff-28ee-4169-88f9-f75c088678f1")
 	)
 	(label "6"
-		(at 71.12 90.17 0)
+		(at 71.12 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3377,7 +3377,7 @@
 		(uuid "b1fac625-79cf-4509-b259-a374969d7329")
 	)
 	(label "7"
-		(at 71.12 87.63 0)
+		(at 71.12 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3387,7 +3387,7 @@
 		(uuid "c25913a7-a0bf-4c18-b1ab-b4d2daf22c06")
 	)
 	(label "1"
-		(at 71.12 102.87 0)
+		(at 71.12 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3397,7 +3397,7 @@
 		(uuid "ce993cfb-fa45-4581-9837-d253a2b28240")
 	)
 	(label "2"
-		(at 71.12 100.33 0)
+		(at 71.12 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3407,7 +3407,7 @@
 		(uuid "d1a1e3a8-e524-4840-a317-9ab0471a0a30")
 	)
 	(label "8"
-		(at 71.12 85.09 0)
+		(at 71.12 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3545,7 +3545,8 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x09")
-		(at 64.77 92.71 180)
+		(at 64.77 92.71 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3553,7 +3554,7 @@
 		(dnp no)
 		(uuid "4a5e9097-21b6-4aaa-babf-abb539e1e8ec")
 		(property "Reference" "J2"
-			(at 64.77 106.172 0)
+			(at 64.77 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3561,7 +3562,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09"
-			(at 64.77 78.74 0)
+			(at 64.77 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3570,7 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:1x09"
-			(at 64.77 77.47 0)
+			(at 64.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3579,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 74.93 0)
+			(at 64.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3588,7 @@
 			)
 		)
 		(property "Description" "Basic 0.1\" PTH"
-			(at 64.77 72.39 0)
+			(at 64.77 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4145,7 +4146,6 @@
 	(symbol
 		(lib_id "DB9-Female:DB9 Female")
 		(at 80.01 92.71 0)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4153,7 +4153,7 @@
 		(dnp no)
 		(uuid "e8c84997-02fa-4bab-93a7-3165f0471090")
 		(property "Reference" "J1"
-			(at 78.232 79.756 0)
+			(at 78.232 105.664 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4162,7 +4162,7 @@
 			)
 		)
 		(property "Value" "DB9-Female"
-			(at 77.216 105.918 0)
+			(at 77.216 79.502 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4171,7 +4171,7 @@
 			)
 		)
 		(property "Footprint" "DE9_Footprint:DB9"
-			(at 80.01 76.454 0)
+			(at 80.01 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4181,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
-			(at 80.01 73.914 0)
+			(at 80.01 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)

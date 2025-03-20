@@ -16,6 +16,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(justify top)
 			)
 		)
 		(property "Value" "DE9-Male"
@@ -24,6 +25,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "DE9-Footprint:DB9"
@@ -33,6 +35,7 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""

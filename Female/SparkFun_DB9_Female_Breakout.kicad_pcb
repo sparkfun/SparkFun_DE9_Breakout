@@ -3082,7 +3082,7 @@
 	(footprint "SparkFun-Connector:1x09"
 		(layer "B.Cu")
 		(uuid "b59e32db-5aa7-4a43-9237-f39eded32b5d")
-		(at 130.81 118.745 90)
+		(at 131.064 98.552 -90)
 		(tags "SparkFun")
 		(property "Reference" "J2"
 			(at 0 1.27 90)
@@ -3109,7 +3109,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3123,7 +3123,7 @@
 			)
 		)
 		(property "Description" "Basic 0.1\" PTH"
-			(at 0 0 270)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -3153,7 +3153,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy 20.066 -0.254) (xy 20.574 -0.254) (xy 20.574 0.254) (xy 20.066 0.254)
+				(xy -0.254 -0.254) (xy 0.254 -0.254) (xy 0.254 0.254) (xy -0.254 0.254)
 			)
 			(stroke
 				(width 0)
@@ -3161,79 +3161,7 @@
 			)
 			(fill yes)
 			(layer "B.Fab")
-			(uuid "6b4ef206-7959-4a25-afca-4b4f76c77429")
-		)
-		(fp_poly
-			(pts
-				(xy 17.526 -0.254) (xy 18.034 -0.254) (xy 18.034 0.254) (xy 17.526 0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "67939a2f-17e7-44e6-9983-172d6c74dd2c")
-		)
-		(fp_poly
-			(pts
-				(xy 14.986 -0.254) (xy 15.494 -0.254) (xy 15.494 0.254) (xy 14.986 0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "102e3142-0034-4816-83d7-a64b04538d0f")
-		)
-		(fp_poly
-			(pts
-				(xy 12.446 -0.254) (xy 12.954 -0.254) (xy 12.954 0.254) (xy 12.446 0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "df1cbf82-9aa0-4489-b3be-0ea67673fe18")
-		)
-		(fp_poly
-			(pts
-				(xy 9.906 -0.254) (xy 10.414 -0.254) (xy 10.414 0.254) (xy 9.906 0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "8419a913-1bac-4242-aa90-b124f17d13ea")
-		)
-		(fp_poly
-			(pts
-				(xy 7.366 -0.254) (xy 7.874 -0.254) (xy 7.874 0.254) (xy 7.366 0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "3de4bba9-55d5-4cdb-87d8-5d417f47aee5")
-		)
-		(fp_poly
-			(pts
-				(xy 4.826 -0.254) (xy 5.334 -0.254) (xy 5.334 0.254) (xy 4.826 0.254)
-			)
-			(stroke
-				(width 0)
-				(type default)
-			)
-			(fill yes)
-			(layer "B.Fab")
-			(uuid "07a1a543-9344-443d-85e1-18d51b410edb")
+			(uuid "a252401d-1a3e-4a5e-9304-1b9163f570cd")
 		)
 		(fp_poly
 			(pts
@@ -3249,7 +3177,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -0.254 -0.254) (xy 0.254 -0.254) (xy 0.254 0.254) (xy -0.254 0.254)
+				(xy 4.826 -0.254) (xy 5.334 -0.254) (xy 5.334 0.254) (xy 4.826 0.254)
 			)
 			(stroke
 				(width 0)
@@ -3257,10 +3185,82 @@
 			)
 			(fill yes)
 			(layer "B.Fab")
-			(uuid "a252401d-1a3e-4a5e-9304-1b9163f570cd")
+			(uuid "07a1a543-9344-443d-85e1-18d51b410edb")
+		)
+		(fp_poly
+			(pts
+				(xy 7.366 -0.254) (xy 7.874 -0.254) (xy 7.874 0.254) (xy 7.366 0.254)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "3de4bba9-55d5-4cdb-87d8-5d417f47aee5")
+		)
+		(fp_poly
+			(pts
+				(xy 9.906 -0.254) (xy 10.414 -0.254) (xy 10.414 0.254) (xy 9.906 0.254)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "8419a913-1bac-4242-aa90-b124f17d13ea")
+		)
+		(fp_poly
+			(pts
+				(xy 12.446 -0.254) (xy 12.954 -0.254) (xy 12.954 0.254) (xy 12.446 0.254)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "df1cbf82-9aa0-4489-b3be-0ea67673fe18")
+		)
+		(fp_poly
+			(pts
+				(xy 14.986 -0.254) (xy 15.494 -0.254) (xy 15.494 0.254) (xy 14.986 0.254)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "102e3142-0034-4816-83d7-a64b04538d0f")
+		)
+		(fp_poly
+			(pts
+				(xy 17.526 -0.254) (xy 18.034 -0.254) (xy 18.034 0.254) (xy 17.526 0.254)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "67939a2f-17e7-44e6-9983-172d6c74dd2c")
+		)
+		(fp_poly
+			(pts
+				(xy 20.066 -0.254) (xy 20.574 -0.254) (xy 20.574 0.254) (xy 20.066 0.254)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Fab")
+			(uuid "6b4ef206-7959-4a25-afca-4b4f76c77429")
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at 0 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -3274,7 +3274,7 @@
 			(uuid "28474cff-3969-4282-8bf7-bfb0fbfc37c1")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -3288,7 +3288,7 @@
 			(uuid "baa7ff0d-acef-46ab-8060-8055aa690f88")
 		)
 		(pad "3" thru_hole circle
-			(at 5.08 0)
+			(at 5.08 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -3302,7 +3302,7 @@
 			(uuid "fa1a64b7-fc00-4020-9709-df7a12616b3c")
 		)
 		(pad "4" thru_hole circle
-			(at 7.62 0)
+			(at 7.62 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -3316,7 +3316,7 @@
 			(uuid "7e1393c0-4f2e-4006-82f9-1edc5f55293c")
 		)
 		(pad "5" thru_hole circle
-			(at 10.16 0)
+			(at 10.16 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -3330,7 +3330,7 @@
 			(uuid "4eb33d8f-c834-4b18-b5fa-8fc5d7b3d0dd")
 		)
 		(pad "6" thru_hole circle
-			(at 12.7 0)
+			(at 12.7 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -3344,7 +3344,7 @@
 			(uuid "f6f4826b-3a61-475f-a364-6f0d1f3dc161")
 		)
 		(pad "7" thru_hole circle
-			(at 15.24 0)
+			(at 15.24 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -3358,7 +3358,7 @@
 			(uuid "4f962324-45c3-47c2-a10e-92360145416b")
 		)
 		(pad "8" thru_hole circle
-			(at 17.78 0)
+			(at 17.78 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
@@ -3372,7 +3372,7 @@
 			(uuid "63e6c3e0-3cf4-4f1f-aedf-107e1aa00b81")
 		)
 		(pad "9" thru_hole circle
-			(at 20.32 0)
+			(at 20.32 0 180)
 			(size 1.8796 1.8796)
 			(drill 1.016)
 			(layers "*.Cu" "*.Mask")
