@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DE9-Footprint")(type "KiCad")(uri "/home/amo/SparkFun/SparkFun_DB9_Breakout/DB9_Footprint/footprints-pretty")(options "")(descr ""))
+)

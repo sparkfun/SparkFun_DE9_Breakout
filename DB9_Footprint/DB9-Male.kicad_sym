@@ -5,6 +5,7 @@
 	(symbol "DE9-Male"
 		(pin_names
 			(offset 0.254)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15,6 +16,7 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(justify top)
 			)
 		)
 		(property "Value" "DE9-Male"
@@ -23,15 +25,17 @@
 				(font
 					(size 1.524 1.524)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Footprint" "DB9_Footprint:DB9"
+		(property "Footprint" "DE9-Footprint:DB9"
 			(at -1.016 -17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
@@ -74,7 +78,7 @@
 		(symbol "DE9-Male_0_1"
 			(polyline
 				(pts
-					(xy -3.81 -10.16) (xy -3.81 12.7) (xy 3.81 12.7) (xy 3.81 -10.16) (xy -3.81 -10.16)
+					(xy -2.54 -11.43) (xy -2.54 11.43) (xy 2.54 7.62) (xy 2.54 -7.62) (xy -2.54 -11.43)
 				)
 				(stroke
 					(width 0.254)
@@ -86,10 +90,109 @@
 			)
 		)
 		(symbol "DE9-Male_1_1"
+			(circle
+				(center -1.27 8.255)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -1.27 4.445)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -1.27 0.635)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -1.27 -3.81)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center -1.27 -7.62)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 6.35)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 -1.27)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 -5.715)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
 			(pin passive line
-				(at -7.62 11.43 0)
+				(at -6.35 10.16 0)
 				(length 3.81)
-				(name "DCD"
+				(name "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -105,9 +208,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 8.89 0)
+				(at -6.35 7.62 0)
 				(length 3.81)
-				(name "RXD"
+				(name "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -123,9 +226,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 6.35 0)
+				(at -6.35 5.08 0)
 				(length 3.81)
-				(name "TXD"
+				(name "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -141,9 +244,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 3.81 0)
+				(at -6.35 2.54 0)
 				(length 3.81)
-				(name "DTR"
+				(name "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -159,9 +262,27 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 1.27 0)
+				(at -6.35 0 0)
 				(length 3.81)
-				(name "DSR"
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -2.54 0)
+				(length 3.81)
+				(name "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -177,9 +298,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -1.27 0)
+				(at -6.35 -5.08 0)
 				(length 3.81)
-				(name "RTS"
+				(name "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -195,9 +316,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -3.81 0)
+				(at -6.35 -7.62 0)
 				(length 3.81)
-				(name "CTS"
+				(name "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -213,9 +334,9 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -6.35 0)
+				(at -6.35 -10.16 0)
 				(length 3.81)
-				(name "RI"
+				(name "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -223,24 +344,6 @@
 					)
 				)
 				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_out line
-				(at -7.62 -8.89 0)
-				(length 3.81)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
