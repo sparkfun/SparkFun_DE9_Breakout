@@ -4033,7 +4033,7 @@
 		(dnp no)
 		(uuid "e8c84997-02fa-4bab-93a7-3165f0471090")
 		(property "Reference" "J1"
-			(at 80.01 80.01 0)
+			(at 80.01 79.248 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4042,7 +4042,7 @@
 			)
 		)
 		(property "Value" "DB9-Female"
-			(at 80.01 106.426 0)
+			(at 80.01 106.68 0)
 			(effects
 				(font
 					(size 1.524 1.524)
