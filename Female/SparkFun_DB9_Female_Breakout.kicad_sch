@@ -3777,7 +3777,7 @@
 		(dnp no)
 		(uuid "80d9779b-b3fa-412d-b98a-9d396afb613a")
 		(property "Reference" "J4"
-			(at 61.468 119.634 0)
+			(at 64.516 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3969,7 @@
 		(dnp no)
 		(uuid "e7bde81e-d7e5-4e81-93ac-f4be2c72c689")
 		(property "Reference" "J3"
-			(at 61.722 112.014 0)
+			(at 64.516 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,7 +4033,7 @@
 		(dnp no)
 		(uuid "e8c84997-02fa-4bab-93a7-3165f0471090")
 		(property "Reference" "J1"
-			(at 78.232 105.664 0)
+			(at 80.01 80.01 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4042,7 +4042,7 @@
 			)
 		)
 		(property "Value" "DB9-Female"
-			(at 77.216 79.502 0)
+			(at 80.01 106.426 0)
 			(effects
 				(font
 					(size 1.524 1.524)
