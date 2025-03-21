@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DE9-Footprint:DB9"
+		(property "Footprint" "DE9_Footprint:DB9"
 			(at 0 -16.256 0)
 			(effects
 				(font
