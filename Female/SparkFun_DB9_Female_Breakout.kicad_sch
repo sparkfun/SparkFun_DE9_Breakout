@@ -11,7 +11,7 @@
 		(comment 1 "Designed by: Elias Santistevan")
 	)
 	(lib_symbols
-		(symbol "DB9-Female:DB9 Female"
+		(symbol "DB9 Female_1"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -82,10 +82,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "DB9 Female_0_1"
+			(symbol "DB9 Female_1_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -11.43) (xy -2.54 11.43) (xy 2.54 7.62) (xy 2.54 -7.62) (xy -2.54 -11.43)
+						(xy -2.54 -7.62) (xy -2.54 10.795) (xy 2.54 6.985) (xy 2.54 -5.08) (xy -2.54 -7.62)
 					)
 					(stroke
 						(width 0.254)
@@ -96,9 +96,9 @@
 					)
 				)
 			)
-			(symbol "DB9 Female_1_1"
+			(symbol "DB9 Female_1_1_1"
 				(circle
-					(center -1.27 8.255)
+					(center -1.27 6.35)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -109,7 +109,7 @@
 					)
 				)
 				(circle
-					(center -1.27 4.445)
+					(center -1.27 3.81)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -120,7 +120,18 @@
 					)
 				)
 				(circle
-					(center -1.27 0.635)
+					(center -1.27 1.27)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -142,18 +153,7 @@
 					)
 				)
 				(circle
-					(center -1.27 -7.62)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 6.35)
+					(center 1.27 5.08)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -175,7 +175,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -1.27)
+					(center 1.27 0)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -186,7 +186,7 @@
 					)
 				)
 				(circle
-					(center 1.27 -5.715)
+					(center 1.27 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -197,7 +197,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 10.16 0)
+					(at -6.35 6.35 0)
 					(length 3.81)
 					(name "1"
 						(effects
@@ -215,7 +215,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 7.62 0)
+					(at -6.35 3.81 0)
 					(length 3.81)
 					(name "2"
 						(effects
@@ -233,7 +233,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 5.08 0)
+					(at -6.35 1.27 0)
 					(length 3.81)
 					(name "3"
 						(effects
@@ -251,7 +251,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 2.54 0)
+					(at -6.35 -1.27 0)
 					(length 3.81)
 					(name "4"
 						(effects
@@ -269,7 +269,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 0 0)
+					(at -6.35 -3.81 0)
 					(length 3.81)
 					(name "5"
 						(effects
@@ -287,7 +287,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -2.54 0)
+					(at 6.35 5.08 180)
 					(length 3.81)
 					(name "6"
 						(effects
@@ -305,7 +305,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -5.08 0)
+					(at 6.35 2.54 180)
 					(length 3.81)
 					(name "7"
 						(effects
@@ -323,7 +323,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -7.62 0)
+					(at 6.35 0 180)
 					(length 3.81)
 					(name "8"
 						(effects
@@ -341,7 +341,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -10.16 0)
+					(at 6.35 -2.54 180)
 					(length 3.81)
 					(name "9"
 						(effects
@@ -359,7 +359,7 @@
 					)
 				)
 			)
-			(symbol "DB9 Female_1_2"
+			(symbol "DB9 Female_1_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -22.86)
@@ -2535,6 +2535,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 99.06) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b190fd1-daa0-4047-8f19-c3fd92f930cf")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 90.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cf0cf9e-681f-4f7f-b974-8ca81c1df2c3")
+	)
+	(wire
+		(pts
 			(xy 69.85 92.71) (xy 73.66 92.71)
 		)
 		(stroke
@@ -2565,13 +2585,33 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 100.33) (xy 73.66 100.33)
+			(xy 69.85 100.33) (xy 90.17 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2324a6d3-90b5-4d59-a707-b57de03dfa3a")
+	)
+	(wire
+		(pts
+			(xy 90.17 88.9) (xy 90.17 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c56b6e-0bc9-451b-980d-eef7b24cc6f9")
+	)
+	(wire
+		(pts
+			(xy 74.93 97.79) (xy 74.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393ffd03-dae5-4c61-890e-0023b2d70ffa")
 	)
 	(wire
 		(pts
@@ -2585,7 +2625,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 102.87) (xy 73.66 102.87)
+			(xy 69.85 102.87) (xy 91.44 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2625,7 +2665,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 97.79) (xy 73.66 97.79)
+			(xy 69.85 97.79) (xy 74.93 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2635,13 +2675,63 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 73.66 95.25)
+			(xy 91.44 91.44) (xy 86.36 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc11da4-d398-4f8a-9c07-2f37689a8577")
+	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 76.2 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e4ce4c0-0fb9-46fd-a198-5c9d2dc2ee08")
+	)
+	(wire
+		(pts
+			(xy 87.63 97.79) (xy 76.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9b8a42-772b-4413-a23e-02f2ddecf3aa")
+	)
+	(wire
+		(pts
+			(xy 76.2 97.79) (xy 76.2 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "912ee743-be9c-4e1d-98cc-65d974fcfbd7")
+	)
+	(wire
+		(pts
+			(xy 86.36 83.82) (xy 87.63 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6ccdb0-00b1-496d-baf7-71400e28a337")
+	)
+	(wire
+		(pts
+			(xy 88.9 86.36) (xy 86.36 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6a58a1-fa9a-4d6a-ac0f-66790ff9256e")
 	)
 	(wire
 		(pts
@@ -2652,6 +2742,16 @@
 			(type default)
 		)
 		(uuid "d392f729-0a92-44a8-80db-424b03673b02")
+	)
+	(wire
+		(pts
+			(xy 87.63 83.82) (xy 87.63 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c9b22b-61e9-4bb2-bdd0-4e31c98f5fc3")
 	)
 	(wire
 		(pts
@@ -2672,6 +2772,26 @@
 			(type default)
 		)
 		(uuid "eed48085-c355-4d3e-ac28-78b8a8ed782a")
+	)
+	(wire
+		(pts
+			(xy 91.44 102.87) (xy 91.44 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19a27ab-9206-4857-9c2d-9f42861123c5")
+	)
+	(wire
+		(pts
+			(xy 74.93 99.06) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5aacee8-efd4-4021-9ea6-71eccc1dbd48")
 	)
 	(table
 		(column_count 2)
@@ -3616,6 +3736,98 @@
 		)
 	)
 	(symbol
+		(lib_name "DB9 Female_1")
+		(lib_id "DB9-Female:DB9 Female")
+		(at 80.01 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39da8480-256c-4129-8b15-5818a3291b4c")
+		(property "Reference" "J5"
+			(at 80.01 73.66 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DB9-Female"
+			(at 80.01 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DE9_Footprint:DB9_Female"
+			(at 80.01 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
+			(at 80.01 107.696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "4be13e6d-087e-41a2-8517-8cb05dd2a38a")
+		)
+		(pin "3"
+			(uuid "3a2e2db1-7971-40d0-99f8-aa4707668220")
+		)
+		(pin "5"
+			(uuid "b8dfd966-c2ec-4afc-b595-f6532aced7a9")
+		)
+		(pin "4"
+			(uuid "a10c1279-ee67-4167-84d3-4a7633019c1d")
+		)
+		(pin "2"
+			(uuid "f93f0818-03d2-453e-8eb4-1c70ffb4f7c5")
+		)
+		(pin "1"
+			(uuid "1c785a88-cf33-483a-80e6-4357211ab5a8")
+		)
+		(pin "8"
+			(uuid "8951105a-3fa0-4af9-bd8e-4fd6831f3e8e")
+		)
+		(pin "7"
+			(uuid "25091a77-695d-4037-a7ed-a2acb108c0b1")
+		)
+		(pin "9"
+			(uuid "499d3b3b-473d-4e45-b26e-74ad2e0ea1b0")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x09")
 		(at 64.77 92.71 0)
 		(mirror y)
@@ -4018,98 +4230,6 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DB9-Female:DB9 Female")
-		(at 80.01 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8c84997-02fa-4bab-93a7-3165f0471090")
-		(property "Reference" "J1"
-			(at 80.01 79.248 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DB9-Female"
-			(at 80.01 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DE9_Footprint:DB9_Female"
-			(at 80.01 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
-			(at 80.01 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "1954c247-d050-4b9e-9fd6-9ddf84063ff9")
-		)
-		(pin "8"
-			(uuid "e220515f-7ce7-41b5-897c-a337736f577a")
-		)
-		(pin "4"
-			(uuid "e78687ab-5cd3-441e-8c66-3e68a1e001b8")
-		)
-		(pin "7"
-			(uuid "8914d200-9479-4f72-89a4-28ffca568944")
-		)
-		(pin "6"
-			(uuid "c3f87d5f-cd3d-4fd3-8d8f-ae5875e708dc")
-		)
-		(pin "3"
-			(uuid "01877094-5dfa-4aa7-9906-1639d6c57a57")
-		)
-		(pin "5"
-			(uuid "5d91904b-50b3-4222-9dbc-8717e1054b28")
-		)
-		(pin "2"
-			(uuid "6e2858d8-6aaf-46b4-b27c-63fac7cc46c6")
-		)
-		(pin "1"
-			(uuid "ee0bac49-632f-49f2-9ea7-2de1fe692a28")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J1")
 					(unit 1)
 				)
 			)
