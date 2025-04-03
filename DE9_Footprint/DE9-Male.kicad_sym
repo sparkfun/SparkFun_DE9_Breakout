@@ -20,7 +20,7 @@
 			)
 		)
 		(property "Value" "DE9-Male"
-			(at -0.762 -13.716 0)
+			(at 0 -9.906 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -28,8 +28,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "DE9-Footprint:DB9"
-			(at -1.016 -17.018 0)
+		(property "Footprint" "DE9-Footprint:DE9"
+			(at 0 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57,7 +57,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "A-DS 09 A/KG-T4S"
+		(property "ki_keywords" "DE9, DB9, D-Sub Connector"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78,7 +78,7 @@
 		(symbol "DE9-Male_0_1"
 			(polyline
 				(pts
-					(xy -2.54 -11.43) (xy -2.54 11.43) (xy 2.54 7.62) (xy 2.54 -7.62) (xy -2.54 -11.43)
+					(xy -2.54 -6.35) (xy -2.54 11.43) (xy 2.54 7.62) (xy 2.54 -2.54) (xy -2.54 -6.35)
 				)
 				(stroke
 					(width 0.254)
@@ -91,7 +91,7 @@
 		)
 		(symbol "DE9-Male_1_1"
 			(circle
-				(center -1.27 8.255)
+				(center -1.27 7.62)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -102,7 +102,7 @@
 				)
 			)
 			(circle
-				(center -1.27 4.445)
+				(center -1.27 5.08)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -113,7 +113,7 @@
 				)
 			)
 			(circle
-				(center -1.27 0.635)
+				(center -1.27 2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -124,7 +124,7 @@
 				)
 			)
 			(circle
-				(center -1.27 -3.81)
+				(center -1.27 0)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -135,7 +135,7 @@
 				)
 			)
 			(circle
-				(center -1.27 -7.62)
+				(center -1.27 -2.54)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -157,7 +157,18 @@
 				)
 			)
 			(circle
-				(center 1.27 2.54)
+				(center 1.27 3.81)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.27 1.27)
 				(radius 0.635)
 				(stroke
 					(width 0)
@@ -178,19 +189,8 @@
 					(type outline)
 				)
 			)
-			(circle
-				(center 1.27 -5.715)
-				(radius 0.635)
-				(stroke
-					(width 0)
-					(type solid)
-				)
-				(fill
-					(type outline)
-				)
-			)
 			(pin passive line
-				(at -6.35 10.16 0)
+				(at -6.35 7.62 0)
 				(length 3.81)
 				(name "1"
 					(effects
@@ -208,7 +208,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 7.62 0)
+				(at -6.35 5.08 0)
 				(length 3.81)
 				(name "2"
 					(effects
@@ -226,7 +226,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 5.08 0)
+				(at -6.35 2.54 0)
 				(length 3.81)
 				(name "3"
 					(effects
@@ -244,7 +244,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 2.54 0)
+				(at -6.35 0 0)
 				(length 3.81)
 				(name "4"
 					(effects
@@ -262,7 +262,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 0 0)
+				(at -6.35 -2.54 0)
 				(length 3.81)
 				(name "5"
 					(effects
@@ -280,7 +280,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -2.54 0)
+				(at 6.35 6.35 180)
 				(length 3.81)
 				(name "6"
 					(effects
@@ -298,7 +298,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -5.08 0)
+				(at 6.35 3.81 180)
 				(length 3.81)
 				(name "7"
 					(effects
@@ -316,7 +316,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -7.62 0)
+				(at 6.35 1.27 180)
 				(length 3.81)
 				(name "8"
 					(effects
@@ -334,7 +334,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 -10.16 0)
+				(at 6.35 -1.27 180)
 				(length 3.81)
 				(name "9"
 					(effects

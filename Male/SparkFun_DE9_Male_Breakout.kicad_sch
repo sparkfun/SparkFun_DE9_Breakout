@@ -11,7 +11,7 @@
 		(comment 1 "Designed by: Elias Santistevan")
 	)
 	(lib_symbols
-		(symbol "DB9-Male:DE9-Male"
+		(symbol "DE9-Male_1"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -29,7 +29,7 @@
 				)
 			)
 			(property "Value" "DE9-Male"
-				(at -0.762 -13.716 0)
+				(at 0 -9.906 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -37,8 +37,8 @@
 					(justify bottom)
 				)
 			)
-			(property "Footprint" "DE9-Footprint:DB9"
-				(at -1.016 -17.018 0)
+			(property "Footprint" "DE9-Footprint:DE9"
+				(at 0 -11.684 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -66,7 +66,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "A-DS 09 A/KG-T4S"
+			(property "ki_keywords" "DE9, DB9, D-Sub Connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -84,10 +84,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "DE9-Male_0_1"
+			(symbol "DE9-Male_1_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -11.43) (xy -2.54 11.43) (xy 2.54 7.62) (xy 2.54 -7.62) (xy -2.54 -11.43)
+						(xy -2.54 -6.35) (xy -2.54 11.43) (xy 2.54 7.62) (xy 2.54 -2.54) (xy -2.54 -6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -98,9 +98,9 @@
 					)
 				)
 			)
-			(symbol "DE9-Male_1_1"
+			(symbol "DE9-Male_1_1_1"
 				(circle
-					(center -1.27 8.255)
+					(center -1.27 7.62)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -111,7 +111,7 @@
 					)
 				)
 				(circle
-					(center -1.27 4.445)
+					(center -1.27 5.08)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -122,7 +122,7 @@
 					)
 				)
 				(circle
-					(center -1.27 0.635)
+					(center -1.27 2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -133,7 +133,7 @@
 					)
 				)
 				(circle
-					(center -1.27 -3.81)
+					(center -1.27 0)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -144,7 +144,7 @@
 					)
 				)
 				(circle
-					(center -1.27 -7.62)
+					(center -1.27 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -166,7 +166,18 @@
 					)
 				)
 				(circle
-					(center 1.27 2.54)
+					(center 1.27 3.81)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 1.27)
 					(radius 0.635)
 					(stroke
 						(width 0)
@@ -187,19 +198,8 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 -5.715)
-					(radius 0.635)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(pin passive line
-					(at -6.35 10.16 0)
+					(at -6.35 7.62 0)
 					(length 3.81)
 					(name "1"
 						(effects
@@ -217,7 +217,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 7.62 0)
+					(at -6.35 5.08 0)
 					(length 3.81)
 					(name "2"
 						(effects
@@ -235,7 +235,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 5.08 0)
+					(at -6.35 2.54 0)
 					(length 3.81)
 					(name "3"
 						(effects
@@ -253,7 +253,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 2.54 0)
+					(at -6.35 0 0)
 					(length 3.81)
 					(name "4"
 						(effects
@@ -271,7 +271,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 0 0)
+					(at -6.35 -2.54 0)
 					(length 3.81)
 					(name "5"
 						(effects
@@ -289,7 +289,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -2.54 0)
+					(at 6.35 6.35 180)
 					(length 3.81)
 					(name "6"
 						(effects
@@ -307,7 +307,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -5.08 0)
+					(at 6.35 3.81 180)
 					(length 3.81)
 					(name "7"
 						(effects
@@ -325,7 +325,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -7.62 0)
+					(at 6.35 1.27 180)
 					(length 3.81)
 					(name "8"
 						(effects
@@ -343,7 +343,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -10.16 0)
+					(at 6.35 -1.27 180)
 					(length 3.81)
 					(name "9"
 						(effects
@@ -361,7 +361,7 @@
 					)
 				)
 			)
-			(symbol "DE9-Male_1_2"
+			(symbol "DE9-Male_1_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -22.86)
@@ -2547,16 +2547,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 105.41) (xy 71.12 105.41)
-		)
-		(stroke
-			(width 0.2286)
-			(type default)
-		)
-		(uuid "1c93f525-6109-478c-b17b-b8d5f0a1bd82")
-	)
-	(wire
-		(pts
 			(xy 67.31 87.63) (xy 71.12 87.63)
 		)
 		(stroke
@@ -2567,13 +2557,33 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 100.33) (xy 71.12 100.33)
+			(xy 72.39 101.6) (xy 72.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f89ddf-b945-4cb8-b8fb-2e2921126c3b")
+	)
+	(wire
+		(pts
+			(xy 67.31 100.33) (xy 72.39 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3acd4529-01f6-4921-8d5d-cc608710a8c3")
+	)
+	(wire
+		(pts
+			(xy 86.36 88.9) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a6b63f3-78d7-49de-82d1-eaf33f3fd526")
 	)
 	(wire
 		(pts
@@ -2587,6 +2597,26 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 105.41) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfd7477-9e78-4dd1-b27d-fc36cba16c87")
+	)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a03bde-9e94-402f-8adf-64494c40ea66")
+	)
+	(wire
+		(pts
 			(xy 67.31 90.17) (xy 71.12 90.17)
 		)
 		(stroke
@@ -2597,6 +2627,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 86.36) (xy 83.82 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b818351-9b28-4407-b2d6-3f37ae61b509")
+	)
+	(wire
+		(pts
 			(xy 67.31 92.71) (xy 71.12 92.71)
 		)
 		(stroke
@@ -2604,6 +2644,36 @@
 			(type default)
 		)
 		(uuid "6e4ce4c0-0fb9-46fd-a198-5c9d2dc2ee08")
+	)
+	(wire
+		(pts
+			(xy 87.63 102.87) (xy 87.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ebde37c-40b8-49dc-985b-53280c672c5a")
+	)
+	(wire
+		(pts
+			(xy 83.82 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8240b789-65e7-49cb-aab5-6bdadb6d3e0c")
+	)
+	(wire
+		(pts
+			(xy 86.36 101.6) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "879e402f-e323-4af0-8607-fbe24d0cee51")
 	)
 	(polyline
 		(pts
@@ -2617,6 +2687,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 100.33) (xy 85.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2901d9-c44c-4ef7-8574-1bb4f3a6835c")
+	)
+	(wire
+		(pts
 			(xy 68.58 114.3) (xy 68.58 116.84)
 		)
 		(stroke
@@ -2627,7 +2707,17 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 97.79) (xy 71.12 97.79)
+			(xy 73.66 97.79) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbac89b5-0a91-42f2-b29f-7ca5dbaf1ef6")
+	)
+	(wire
+		(pts
+			(xy 67.31 97.79) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2657,7 +2747,27 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 102.87) (xy 71.12 102.87)
+			(xy 83.82 88.9) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee47d319-e046-43cc-8707-be85b74afe49")
+	)
+	(wire
+		(pts
+			(xy 85.09 100.33) (xy 85.09 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee786da2-3678-4786-be97-125a77f4581e")
+	)
+	(wire
+		(pts
+			(xy 67.31 102.87) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2674,6 +2784,16 @@
 			(type default)
 		)
 		(uuid "f409b9a3-3485-4022-b3f8-fc89bd0ec080")
+	)
+	(wire
+		(pts
+			(xy 87.63 91.44) (xy 83.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7603c8d-752f-4607-b044-98d3a1a7d305")
 	)
 	(table
 		(column_count 2)
@@ -3551,6 +3671,98 @@
 		)
 	)
 	(symbol
+		(lib_name "DE9-Male_1")
+		(lib_id "DE9-Male:DE9-Male")
+		(at 77.47 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10558666-2e28-4b2b-b86e-6ef4af19e096")
+		(property "Reference" "J5"
+			(at 77.47 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "DE9-Male"
+			(at 77.47 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "DE9-Footprint:DE9"
+			(at 77.47 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 75.692 112.014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "b19649cb-ea71-4bb0-be7d-4f4de7b72f0e")
+		)
+		(pin "7"
+			(uuid "0475123a-e708-48a2-8e90-04a085f0f8de")
+		)
+		(pin "5"
+			(uuid "831c6856-a7ca-4ab1-b5c5-c7644e9a4c86")
+		)
+		(pin "6"
+			(uuid "9996c2d5-b172-43f3-afc4-4587b11b89cd")
+		)
+		(pin "3"
+			(uuid "151d3bf5-4986-4445-a30c-753a862744e0")
+		)
+		(pin "4"
+			(uuid "136b62c5-426a-45eb-8d0a-ed85ded2222c")
+		)
+		(pin "2"
+			(uuid "91ca7d1b-00c9-4346-8daa-ea57cd8fa7a4")
+		)
+		(pin "1"
+			(uuid "439827ca-c839-4a99-b5d9-06a729100ad3")
+		)
+		(pin "9"
+			(uuid "96945877-7ef5-49c1-a402-034efcaab0ea")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Aesthetic:SparkFun_Logo")
 		(at 213.36 167.64 0)
 		(unit 1)
@@ -3676,99 +3888,6 @@
 			(project ""
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DB9-Male:DE9-Male")
-		(at 77.47 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a7f0ac7-23b2-4a1b-8652-8f7693ce2a42")
-		(property "Reference" "J3"
-			(at 81.28 93.9799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "DE9-Male"
-			(at 81.28 96.5199 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "DE9-Footprint:DB9"
-			(at 76.454 112.268 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 75.692 114.554 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "bcba361b-54d9-428d-afc9-08ddc6295ae9")
-		)
-		(pin "5"
-			(uuid "98128b26-3ae7-4b74-9c74-ffe594b90305")
-		)
-		(pin "4"
-			(uuid "81bf2006-9ed0-43d6-99b7-998df0618394")
-		)
-		(pin "3"
-			(uuid "a68fa85c-0833-4cbf-9b82-38d136c15770")
-		)
-		(pin "2"
-			(uuid "a27f5666-a8be-4937-b5b1-864c0daf641e")
-		)
-		(pin "1"
-			(uuid "e0a29824-a931-4fb0-b040-8c370cd7f996")
-		)
-		(pin "9"
-			(uuid "00300d08-2465-4aec-a275-b97cbb37671e")
-		)
-		(pin "7"
-			(uuid "b3bb277f-e13e-4ad4-9caf-8971c0d43219")
-		)
-		(pin "6"
-			(uuid "0d8490f2-a011-4237-a299-f4b15c13a45a")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J3")
 					(unit 1)
 				)
 			)

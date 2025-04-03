@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "DB9-Female")(type "KiCad")(uri "/home/amo/SparkFun/SparkFun_DB9_Breakout/DB9_Footprint/DB9-Female.kicad_sym")(options "")(descr ""))
-  (lib (name "DB9-Male")(type "KiCad")(uri "/home/amo/SparkFun/SparkFun_DB9_Breakout/DB9_Footprint/DB9-Male.kicad_sym")(options "")(descr ""))
+  (lib (name "DE9-Male")(type "KiCad")(uri "/home/amo/SparkFun/SparkFun_DB9_Breakout/DE9_Footprint/DE9-Male.kicad_sym")(options "")(descr ""))
 )
