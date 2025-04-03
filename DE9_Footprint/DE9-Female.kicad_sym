@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "DB9 Female"
+	(symbol "DE9 Female"
 		(pin_names
 			(offset 0.254)
 			(hide yes)
@@ -18,7 +18,7 @@
 				)
 			)
 		)
-		(property "Value" "DB9-Female"
+		(property "Value" "DE9-Female"
 			(at 0 -13.97 0)
 			(effects
 				(font
@@ -26,7 +26,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DE9_Footprint:DB9_Female"
+		(property "Footprint" "DE9-Footprints:DE9_Female"
 			(at 0 -16.256 0)
 			(effects
 				(font
@@ -73,7 +73,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "DB9 Female_0_1"
+		(symbol "DE9 Female_0_1"
 			(polyline
 				(pts
 					(xy -2.54 -7.62) (xy -2.54 10.795) (xy 2.54 6.985) (xy 2.54 -5.08) (xy -2.54 -7.62)
@@ -87,7 +87,7 @@
 				)
 			)
 		)
-		(symbol "DB9 Female_1_1"
+		(symbol "DE9 Female_1_1"
 			(circle
 				(center -1.27 6.35)
 				(radius 0.635)
@@ -350,7 +350,7 @@
 				)
 			)
 		)
-		(symbol "DB9 Female_1_2"
+		(symbol "DE9 Female_1_2"
 			(polyline
 				(pts
 					(xy 5.08 2.54) (xy 5.08 -22.86)

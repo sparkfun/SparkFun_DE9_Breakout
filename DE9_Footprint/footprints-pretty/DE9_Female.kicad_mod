@@ -1,4 +1,4 @@
-(footprint "DB9_Female"
+(footprint "DE9_Female"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "DB9 Connector"
+	(property "Value" "DE9 Connector"
 		(at 0 -5.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -389,7 +389,7 @@
 	)
 	(pad "10" thru_hole circle
 		(at -12.495 -1.42)
-		(size 4.5 4.5)
+		(size 5 5)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -397,7 +397,7 @@
 	)
 	(pad "11" thru_hole circle
 		(at 12.495 -1.42)
-		(size 4.5 4.5)
+		(size 5 5)
 		(drill 3.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
