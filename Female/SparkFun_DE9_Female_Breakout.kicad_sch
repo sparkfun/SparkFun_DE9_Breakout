@@ -2535,6 +2535,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 86.36) (xy 88.9 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004e270e-5102-46de-a013-fa0be7c6111b")
+	)
+	(wire
+		(pts
 			(xy 88.9 99.06) (xy 88.9 86.36)
 		)
 		(stroke
@@ -2605,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 97.79) (xy 74.93 99.06)
+			(xy 73.66 97.79) (xy 73.66 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2665,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 97.79) (xy 74.93 97.79)
+			(xy 69.85 97.79) (xy 73.66 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2685,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 76.2 95.25)
+			(xy 69.85 95.25) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2695,7 +2705,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 97.79) (xy 76.2 97.79)
+			(xy 87.63 97.79) (xy 74.93 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2705,7 +2715,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 97.79) (xy 76.2 95.25)
+			(xy 74.93 97.79) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2722,16 +2732,6 @@
 			(type default)
 		)
 		(uuid "9e6ccdb0-00b1-496d-baf7-71400e28a337")
-	)
-	(wire
-		(pts
-			(xy 88.9 86.36) (xy 86.36 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb6a58a1-fa9a-4d6a-ac0f-66790ff9256e")
 	)
 	(wire
 		(pts
@@ -2785,7 +2785,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 99.06) (xy 88.9 99.06)
+			(xy 73.66 99.06) (xy 88.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2831,7 +2831,7 @@
 				)
 				(uuid "03d02831-8f68-4377-ac63-12f2d741976e")
 			)
-			(table_cell "Ring Indicator (RI)"
+			(table_cell "Ground (GND)"
 				(exclude_from_sim no)
 				(at 188.214 74.168 0)
 				(size 31.75 2.54)
@@ -2865,7 +2865,7 @@
 				)
 				(uuid "5b4bf7d6-782f-4a89-bf9d-78f2298fd6a1")
 			)
-			(table_cell "Request to Send (RTS)"
+			(table_cell "Data Terminal Ready (DTR)"
 				(exclude_from_sim no)
 				(at 188.214 76.708 0)
 				(size 31.75 2.54)
@@ -2899,7 +2899,7 @@
 				)
 				(uuid "87d2cc94-e496-475b-8e94-a97ff70d7a35")
 			)
-			(table_cell "Clear to Send (CTS)"
+			(table_cell "Received Data (RXD)"
 				(exclude_from_sim no)
 				(at 188.214 79.248 0)
 				(size 31.75 2.54)
@@ -2933,7 +2933,7 @@
 				)
 				(uuid "0308acba-40f8-4661-ac39-d2bba006bfa6")
 			)
-			(table_cell "Request to Send (RTS)"
+			(table_cell "Transmit (TXD)"
 				(exclude_from_sim no)
 				(at 188.214 81.788 0)
 				(size 31.75 2.54)
@@ -2967,7 +2967,7 @@
 				)
 				(uuid "b22abc82-f2b9-4aab-982f-aa2c91fdaed7")
 			)
-			(table_cell "Ground (GND)"
+			(table_cell "Data Carrier Detect (DCD)"
 				(exclude_from_sim no)
 				(at 188.214 84.328 0)
 				(size 31.75 2.54)
@@ -3001,7 +3001,7 @@
 				)
 				(uuid "b806d077-35ec-4910-ac97-f620bf12e70a")
 			)
-			(table_cell "Data Terminal Ready (DTR)"
+			(table_cell "Ring Indicator (RI)"
 				(exclude_from_sim no)
 				(at 188.214 86.868 0)
 				(size 31.75 2.54)
@@ -3035,7 +3035,7 @@
 				)
 				(uuid "1a94e525-dfb2-48eb-8d0b-09f457f8a6ed")
 			)
-			(table_cell "Received Data (RXD)"
+			(table_cell "Ready to Send (RTS)"
 				(exclude_from_sim no)
 				(at 188.214 89.408 0)
 				(size 31.75 2.54)
@@ -3069,7 +3069,7 @@
 				)
 				(uuid "fd2e6625-40ce-45a0-bc1e-1cda08c19200")
 			)
-			(table_cell "Transmit (TXD)"
+			(table_cell "Clear to Send (CTS)"
 				(exclude_from_sim no)
 				(at 188.214 91.948 0)
 				(size 31.75 2.54)
@@ -3103,7 +3103,7 @@
 				)
 				(uuid "4edd2578-bd54-481c-ae0f-257cc9cdd47c")
 			)
-			(table_cell "Data Carrier Detect (DCD)"
+			(table_cell "Data Set Ready (DSR)"
 				(exclude_from_sim no)
 				(at 188.214 94.488 0)
 				(size 31.75 2.54)
@@ -3160,7 +3160,7 @@
 				)
 				(uuid "ad9220dd-3b88-493d-b1be-13b88d7e9520")
 			)
-			(table_cell "NC"
+			(table_cell "Shield"
 				(exclude_from_sim no)
 				(at 187.96 104.14 0)
 				(size 20.32 2.54)
@@ -3194,7 +3194,7 @@
 				)
 				(uuid "90b42dbe-afe3-4e96-98ff-25e86d2f963c")
 			)
-			(table_cell "CAN-L"
+			(table_cell "NC"
 				(exclude_from_sim no)
 				(at 187.96 106.68 0)
 				(size 20.32 2.54)
@@ -3228,7 +3228,7 @@
 				)
 				(uuid "cad7ac34-1671-45f6-9e0e-1be03104ceb1")
 			)
-			(table_cell "Ground (GND)"
+			(table_cell "GND"
 				(exclude_from_sim no)
 				(at 187.96 109.22 0)
 				(size 20.32 2.54)
@@ -3262,7 +3262,7 @@
 				)
 				(uuid "00ae156f-881d-46b1-93f4-ba7935f3fc90")
 			)
-			(table_cell "NC"
+			(table_cell "CAN-L"
 				(exclude_from_sim no)
 				(at 187.96 111.76 0)
 				(size 20.32 2.54)
@@ -3296,7 +3296,7 @@
 				)
 				(uuid "9c8be1d5-6224-448c-8ea9-71374929d885")
 			)
-			(table_cell "Shield"
+			(table_cell "NC"
 				(exclude_from_sim no)
 				(at 187.96 114.3 0)
 				(size 20.32 2.54)
@@ -3330,7 +3330,7 @@
 				)
 				(uuid "cfd6eb47-f2a4-4503-afd6-98468b82229e")
 			)
-			(table_cell "NC"
+			(table_cell "VCC"
 				(exclude_from_sim no)
 				(at 187.96 116.84 0)
 				(size 20.32 2.54)
@@ -3364,7 +3364,7 @@
 				)
 				(uuid "c0a6e053-4198-4370-821f-9d60a80a88a7")
 			)
-			(table_cell "CAN-H"
+			(table_cell "NC"
 				(exclude_from_sim no)
 				(at 187.96 119.38 0)
 				(size 20.32 2.54)
@@ -3398,7 +3398,7 @@
 				)
 				(uuid "b53e02a5-a59a-4dcd-ac66-ecd5db750e9e")
 			)
-			(table_cell "NC"
+			(table_cell "CAN-H"
 				(exclude_from_sim no)
 				(at 187.96 121.92 0)
 				(size 20.32 2.54)
@@ -3432,7 +3432,7 @@
 				)
 				(uuid "31de6f69-9c73-4c74-9b2c-4c230435d828")
 			)
-			(table_cell "Power"
+			(table_cell "Optional GND"
 				(exclude_from_sim no)
 				(at 187.96 124.46 0)
 				(size 20.32 2.54)
@@ -3832,7 +3832,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "51540266-a648-4979-815a-805c8d496f8a")
 		(property "Reference" "J1"
 			(at 80.01 73.66 0)
