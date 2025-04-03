@@ -2499,6 +2499,16 @@
 		)
 		(uuid "a62ae3f3-21c4-4ce5-91c3-a0efb624b52d")
 	)
+	(text "RS232 + RS485 Pinout Female"
+		(exclude_from_sim no)
+		(at 202.565 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b02e84dc-3c3b-4f5f-b978-3cd34c44c548")
+	)
 	(text "CAN bus Pinout "
 		(exclude_from_sim no)
 		(at 195.58 100.33 0)
@@ -2518,16 +2528,6 @@
 			)
 		)
 		(uuid "da1f1c1c-449a-45bc-86da-ed5fc4f7ed2e")
-	)
-	(text "RS232 + RS485 Pinout Male"
-		(exclude_from_sim no)
-		(at 201.93 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ed818174-dffe-4ec9-bda6-35eb803d12f3")
 	)
 	(junction
 		(at 68.58 116.84)
@@ -2794,335 +2794,6 @@
 			(type default)
 		)
 		(uuid "f7603c8d-752f-4607-b044-98d3a1a7d305")
-	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 7.62 31.75)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
-		(cells
-			(table_cell "Pin 1"
-				(exclude_from_sim no)
-				(at 187.96 73.66 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "03d02831-8f68-4377-ac63-12f2d741976e")
-			)
-			(table_cell "Data Carrier Detect (DCD) "
-				(exclude_from_sim no)
-				(at 195.58 73.66 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "ea6f342f-001f-4b1d-93c7-319cefcb542e")
-			)
-			(table_cell "Pin 2"
-				(exclude_from_sim no)
-				(at 187.96 76.2 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "5b4bf7d6-782f-4a89-bf9d-78f2298fd6a1")
-			)
-			(table_cell "Received Data (RXD) "
-				(exclude_from_sim no)
-				(at 195.58 76.2 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "d2928e1a-6b28-41b3-9544-5085df9a3e78")
-			)
-			(table_cell "Pin 3"
-				(exclude_from_sim no)
-				(at 187.96 78.74 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "87d2cc94-e496-475b-8e94-a97ff70d7a35")
-			)
-			(table_cell "Transmit Data (TXD) "
-				(exclude_from_sim no)
-				(at 195.58 78.74 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "67f051af-af77-46a8-9d31-2f8f855d17fe")
-			)
-			(table_cell "Pin 4"
-				(exclude_from_sim no)
-				(at 187.96 81.28 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "0308acba-40f8-4661-ac39-d2bba006bfa6")
-			)
-			(table_cell "Data Terminal Ready (DTR) "
-				(exclude_from_sim no)
-				(at 195.58 81.28 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "e655809b-86b8-445d-8e0a-9566818efdcc")
-			)
-			(table_cell "Pin 5"
-				(exclude_from_sim no)
-				(at 187.96 83.82 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "b22abc82-f2b9-4aab-982f-aa2c91fdaed7")
-			)
-			(table_cell "Ground (GND)"
-				(exclude_from_sim no)
-				(at 195.58 83.82 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "ebb72c6f-65fc-4ae2-ab55-cd527db91047")
-			)
-			(table_cell "Pin 6"
-				(exclude_from_sim no)
-				(at 187.96 86.36 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "b806d077-35ec-4910-ac97-f620bf12e70a")
-			)
-			(table_cell "Request to send (RTS) "
-				(exclude_from_sim no)
-				(at 195.58 86.36 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "756328aa-ee99-40b4-80f2-f73a72db1b27")
-			)
-			(table_cell "Pin 7"
-				(exclude_from_sim no)
-				(at 187.96 88.9 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "1a94e525-dfb2-48eb-8d0b-09f457f8a6ed")
-			)
-			(table_cell "Request to send (RTS) "
-				(exclude_from_sim no)
-				(at 195.58 88.9 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "96f3dd2a-b22a-4885-bc5b-acde47e7b1b5")
-			)
-			(table_cell "Pin 8"
-				(exclude_from_sim no)
-				(at 187.96 91.44 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "fd2e6625-40ce-45a0-bc1e-1cda08c19200")
-			)
-			(table_cell "Clear to Send (CTS) "
-				(exclude_from_sim no)
-				(at 195.58 91.44 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "00d89856-18c3-471a-87a6-8ddcbf97f917")
-			)
-			(table_cell "Pin 9"
-				(exclude_from_sim no)
-				(at 187.96 93.98 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4edd2578-bd54-481c-ae0f-257cc9cdd47c")
-			)
-			(table_cell "Ring Indicator (RI) "
-				(exclude_from_sim no)
-				(at 195.58 93.98 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "dd53337e-3afa-4f3e-b41d-f145f9540d62")
-			)
-		)
 	)
 	(table
 		(column_count 2)
@@ -3450,6 +3121,335 @@
 					(justify left top)
 				)
 				(uuid "9d018d0d-caac-40b2-9cb6-b3cbdc3e24c8")
+			)
+		)
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 7.62 31.75)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Pin 1"
+				(exclude_from_sim no)
+				(at 187.579 74.168 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "03d02831-8f68-4377-ac63-12f2d741976e")
+			)
+			(table_cell "Ground (GND)"
+				(exclude_from_sim no)
+				(at 195.199 74.168 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ea6f342f-001f-4b1d-93c7-319cefcb542e")
+			)
+			(table_cell "Pin 2"
+				(exclude_from_sim no)
+				(at 187.579 76.708 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5b4bf7d6-782f-4a89-bf9d-78f2298fd6a1")
+			)
+			(table_cell "Data Terminal Ready (DTR)"
+				(exclude_from_sim no)
+				(at 195.199 76.708 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d2928e1a-6b28-41b3-9544-5085df9a3e78")
+			)
+			(table_cell "Pin 3"
+				(exclude_from_sim no)
+				(at 187.579 79.248 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "87d2cc94-e496-475b-8e94-a97ff70d7a35")
+			)
+			(table_cell "Received Data (RXD)"
+				(exclude_from_sim no)
+				(at 195.199 79.248 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "67f051af-af77-46a8-9d31-2f8f855d17fe")
+			)
+			(table_cell "Pin 4"
+				(exclude_from_sim no)
+				(at 187.579 81.788 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0308acba-40f8-4661-ac39-d2bba006bfa6")
+			)
+			(table_cell "Transmit (TXD)"
+				(exclude_from_sim no)
+				(at 195.199 81.788 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e655809b-86b8-445d-8e0a-9566818efdcc")
+			)
+			(table_cell "Pin 5"
+				(exclude_from_sim no)
+				(at 187.579 84.328 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b22abc82-f2b9-4aab-982f-aa2c91fdaed7")
+			)
+			(table_cell "Data Carrier Detect (DCD)"
+				(exclude_from_sim no)
+				(at 195.199 84.328 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ebb72c6f-65fc-4ae2-ab55-cd527db91047")
+			)
+			(table_cell "Pin 6"
+				(exclude_from_sim no)
+				(at 187.579 86.868 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b806d077-35ec-4910-ac97-f620bf12e70a")
+			)
+			(table_cell "Ring Indicator (RI)"
+				(exclude_from_sim no)
+				(at 195.199 86.868 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "756328aa-ee99-40b4-80f2-f73a72db1b27")
+			)
+			(table_cell "Pin 7"
+				(exclude_from_sim no)
+				(at 187.579 89.408 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1a94e525-dfb2-48eb-8d0b-09f457f8a6ed")
+			)
+			(table_cell "Ready to Send (RTS)"
+				(exclude_from_sim no)
+				(at 195.199 89.408 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "96f3dd2a-b22a-4885-bc5b-acde47e7b1b5")
+			)
+			(table_cell "Pin 8"
+				(exclude_from_sim no)
+				(at 187.579 91.948 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fd2e6625-40ce-45a0-bc1e-1cda08c19200")
+			)
+			(table_cell "Clear to Send (CTS)"
+				(exclude_from_sim no)
+				(at 195.199 91.948 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "00d89856-18c3-471a-87a6-8ddcbf97f917")
+			)
+			(table_cell "Pin 9"
+				(exclude_from_sim no)
+				(at 187.579 94.488 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4edd2578-bd54-481c-ae0f-257cc9cdd47c")
+			)
+			(table_cell "Data Set Ready (DSR)"
+				(exclude_from_sim no)
+				(at 195.199 94.488 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dd53337e-3afa-4f3e-b41d-f145f9540d62")
 			)
 		)
 	)

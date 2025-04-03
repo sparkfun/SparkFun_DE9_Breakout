@@ -2497,15 +2497,15 @@
 		)
 		(uuid "1d0e1303-12c0-4003-9301-cc54ecae34d5")
 	)
-	(text "RS232 + RS485 Pinout Female"
+	(text "RS232 + RS485 Pinout Male"
 		(exclude_from_sim no)
-		(at 195.58 72.39 0)
+		(at 194.31 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "35c6869a-8348-4dd2-9ff9-1cf08eec37b6")
+		(uuid "9cd6ac31-b775-4289-bd19-be45dabf4b20")
 	)
 	(text "CAN bus Pinout "
 		(exclude_from_sim no)
@@ -2695,16 +2695,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 95.25) (xy 74.93 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4ce4c0-0fb9-46fd-a198-5c9d2dc2ee08")
-	)
-	(wire
-		(pts
 			(xy 87.63 97.79) (xy 74.93 97.79)
 		)
 		(stroke
@@ -2712,6 +2702,16 @@
 			(type default)
 		)
 		(uuid "7e9b8a42-772b-4413-a23e-02f2ddecf3aa")
+	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 74.93 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89430488-5d16-410f-a81e-6dd663ec79a2")
 	)
 	(wire
 		(pts
@@ -2816,7 +2816,7 @@
 		(cells
 			(table_cell "Pin 1"
 				(exclude_from_sim no)
-				(at 180.594 74.168 0)
+				(at 180.34 72.39 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2831,9 +2831,9 @@
 				)
 				(uuid "03d02831-8f68-4377-ac63-12f2d741976e")
 			)
-			(table_cell "Ground (GND)"
+			(table_cell "Data Carrier Detect (DCD) "
 				(exclude_from_sim no)
-				(at 188.214 74.168 0)
+				(at 187.96 72.39 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2850,7 +2850,7 @@
 			)
 			(table_cell "Pin 2"
 				(exclude_from_sim no)
-				(at 180.594 76.708 0)
+				(at 180.34 74.93 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2865,9 +2865,9 @@
 				)
 				(uuid "5b4bf7d6-782f-4a89-bf9d-78f2298fd6a1")
 			)
-			(table_cell "Data Terminal Ready (DTR)"
+			(table_cell "Received Data (RXD) "
 				(exclude_from_sim no)
-				(at 188.214 76.708 0)
+				(at 187.96 74.93 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2884,7 +2884,7 @@
 			)
 			(table_cell "Pin 3"
 				(exclude_from_sim no)
-				(at 180.594 79.248 0)
+				(at 180.34 77.47 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2899,9 +2899,9 @@
 				)
 				(uuid "87d2cc94-e496-475b-8e94-a97ff70d7a35")
 			)
-			(table_cell "Received Data (RXD)"
+			(table_cell "Transmit Data (TXD) "
 				(exclude_from_sim no)
-				(at 188.214 79.248 0)
+				(at 187.96 77.47 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2918,7 +2918,7 @@
 			)
 			(table_cell "Pin 4"
 				(exclude_from_sim no)
-				(at 180.594 81.788 0)
+				(at 180.34 80.01 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2933,9 +2933,9 @@
 				)
 				(uuid "0308acba-40f8-4661-ac39-d2bba006bfa6")
 			)
-			(table_cell "Transmit (TXD)"
+			(table_cell "Data Terminal Ready (DTR) "
 				(exclude_from_sim no)
-				(at 188.214 81.788 0)
+				(at 187.96 80.01 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2952,7 +2952,7 @@
 			)
 			(table_cell "Pin 5"
 				(exclude_from_sim no)
-				(at 180.594 84.328 0)
+				(at 180.34 82.55 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2967,9 +2967,9 @@
 				)
 				(uuid "b22abc82-f2b9-4aab-982f-aa2c91fdaed7")
 			)
-			(table_cell "Data Carrier Detect (DCD)"
+			(table_cell "Ground (GND)"
 				(exclude_from_sim no)
-				(at 188.214 84.328 0)
+				(at 187.96 82.55 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -2986,7 +2986,7 @@
 			)
 			(table_cell "Pin 6"
 				(exclude_from_sim no)
-				(at 180.594 86.868 0)
+				(at 180.34 85.09 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3001,9 +3001,9 @@
 				)
 				(uuid "b806d077-35ec-4910-ac97-f620bf12e70a")
 			)
-			(table_cell "Ring Indicator (RI)"
+			(table_cell "Request to send (RTS) "
 				(exclude_from_sim no)
-				(at 188.214 86.868 0)
+				(at 187.96 85.09 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3020,7 +3020,7 @@
 			)
 			(table_cell "Pin 7"
 				(exclude_from_sim no)
-				(at 180.594 89.408 0)
+				(at 180.34 87.63 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3035,9 +3035,9 @@
 				)
 				(uuid "1a94e525-dfb2-48eb-8d0b-09f457f8a6ed")
 			)
-			(table_cell "Ready to Send (RTS)"
+			(table_cell "Request to send (RTS) "
 				(exclude_from_sim no)
-				(at 188.214 89.408 0)
+				(at 187.96 87.63 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3054,7 +3054,7 @@
 			)
 			(table_cell "Pin 8"
 				(exclude_from_sim no)
-				(at 180.594 91.948 0)
+				(at 180.34 90.17 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3069,9 +3069,9 @@
 				)
 				(uuid "fd2e6625-40ce-45a0-bc1e-1cda08c19200")
 			)
-			(table_cell "Clear to Send (CTS)"
+			(table_cell "Clear to Send (CTS) "
 				(exclude_from_sim no)
-				(at 188.214 91.948 0)
+				(at 187.96 90.17 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3088,7 +3088,7 @@
 			)
 			(table_cell "Pin 9"
 				(exclude_from_sim no)
-				(at 180.594 94.488 0)
+				(at 180.34 92.71 0)
 				(size 7.62 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -3103,9 +3103,9 @@
 				)
 				(uuid "4edd2578-bd54-481c-ae0f-257cc9cdd47c")
 			)
-			(table_cell "Data Set Ready (DSR)"
+			(table_cell "Ring Indicator (RI) "
 				(exclude_from_sim no)
-				(at 188.214 94.488 0)
+				(at 187.96 92.71 0)
 				(size 31.75 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
