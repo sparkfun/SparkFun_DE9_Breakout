@@ -1,4 +1,4 @@
-25604714054010932
+25615311434040763
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55229,15 +55229,15 @@ SMD SMT ceramic resonator filter filter hand-soldering
 0
 3
 3
-DE9_Footprint
-DB9
+DE9-Footprints
+DE9
 
 A-DS 09 A/KG-T4S 
 0
 11
 11
-DE9_Footprint
-DB9_Female
+DE9-Footprints
+DE9_Female
 
 A-DS 09 A/KG-T4S 
 0
@@ -92904,6 +92904,13 @@ SparkFun 5 pin 2mm
 5
 5
 SparkFun-Connector
+1x05_2.0mm_SMD_Pin1RightUp
+
+SparkFun 5 pin 2mm
+0
+5
+5
+SparkFun-Connector
 1x05_Castellated
 
 SparkFun
@@ -92996,6 +93003,13 @@ SparkFun Plated Through Hole 7 Pin 2mm
 7
 SparkFun-Connector
 1x07_2.0mm_SMD_Pin1RightDown
+
+SparkFun 2mm 7 pin
+0
+7
+7
+SparkFun-Connector
+1x07_2.0mm_SMD_Pin1RightUp
 
 SparkFun 2mm 7 pin
 0
@@ -93387,9 +93401,9 @@ SparkFun
 133
 53
 SparkFun-Connector
-2x03_AVR_ISP
+2x03_NoSilk
 
-SparkFun Small SMD test points that can be used for AVR ISP programming
+SparkFun AVR ISP PTH Connector
 0
 6
 6
@@ -93404,6 +93418,13 @@ SparkFun-Connector
 2x03_P2.00mm_NoSilk
 Through hole straight pin header, 2x03, 2.00mm pitch, double rows
 SparkFun Through hole pin header THT 2x03 2.00mm double row
+0
+6
+6
+SparkFun-Connector
+2x03_Pogo
+
+SparkFun Small SMD test points that can be used for AVR ISP programming
 0
 6
 6
@@ -93429,14 +93450,14 @@ SparkFun
 10
 10
 SparkFun-Connector
-2x10_2.0mm_Female_Socket_Vertical_SMD
+2x10_2.0mm_Female_Socket_Vertical_SMD_Pegs
 
 SparkFun
 0
 20
 20
 SparkFun-Connector
-2x10_2.0mm_Male_Pins_Vertical_SMD
+2x10_2.0mm_Male_Pins_Vertical_SMD_Pegs
 
 SparkFun
 0
@@ -93526,6 +93547,13 @@ SparkFun
 0
 17
 16
+SparkFun-Connector
+FPC_0.3mm-13
+
+SparkFun FPC 13 pin 0.3mm
+0
+15
+14
 SparkFun-Connector
 FPC_0.5mm-12
 12 pin backflip connector
@@ -94255,7 +94283,7 @@ SparkFun
 102
 102
 SparkFun-GPS
-ZED-F9
+ZED-F9P_F9T_F9R_X20P
 
 SparkFun
 0
@@ -94689,6 +94717,13 @@ SparkFun resistor
 2
 2
 SparkFun-Resistor
+R_2512_6332Metric
+
+resistor
+0
+2
+2
+SparkFun-Resistor
 Trimpot_SMD_3.0x3.0mm
 https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/22.pdf
 SparkFun Trimmer
@@ -94731,8 +94766,15 @@ SparkFun
 10
 10
 SparkFun-Semiconductor-Standard
-DFN-8
-Now follows http://pdfserv.maximintegrated.com/land_patterns/90-0065.PDF<br />{return}Pasted was reduced by 40% width on the center ground pad, and some amount on the other 8.  Stop mask extends 135 µm wider than the pad to hit dead center of what IPC-7351 recommends.
+DFN-8_2x3mm
+
+SparkFun DFN 2x3mm
+0
+8
+8
+SparkFun-Semiconductor-Standard
+DFN-8_3x3mm
+
 SparkFun
 0
 9
@@ -94814,6 +94856,13 @@ SparkFun QFN
 0
 21
 17
+SparkFun-Semiconductor-Standard
+QFN-24-1EP_3x3mm_P0.5mm_EP1.9x1.9mm
+
+SparkFun QFN
+0
+29
+25
 SparkFun-Semiconductor-Standard
 QFN-24-1EP_4x4mm_P0.5mm
 QFN, 24 Pin (http://www.alfarzpp.lv/eng/sc/AS3330.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -95004,6 +95053,13 @@ SparkFun Optoisolator Optocoupler
 4
 4
 SparkFun-Semiconductor-Standard
+TFBGA-24
+
+SparkFun BGA
+0
+24
+24
+SparkFun-Semiconductor-Standard
 TO-220-3
 
 SparkFun
@@ -95038,13 +95094,6 @@ SparkFun TSSOP SO
 0
 20
 20
-SparkFun-Semiconductor-Standard
-UDFN-8
-Aka 8-UDFN Exposed Pad, UDFN-8 U-DFN3030-8 (Type E)
-SparkFun UDFN-8 U-DFN3030-8 (Type E)
-0
-9
-9
 SparkFun-Semiconductor-Standard
 UFDFN-10_2.5x1.0mm_P0.5mm
 UFDFN USON-10 2.5x1.0mm_ Pitch 0.5mm
@@ -95101,6 +95150,13 @@ SparkFun WSON
 0
 9
 9
+SparkFun-Sensor
+BMV080_Outline
+
+
+0
+0
+0
 SparkFun-Sensor
 LG-MLGA-14-1_Z8B00206105
 
@@ -102983,17 +103039,3 @@ Varistor VF
 0
 2
 2
-footprints-pretty
-DB9
-
-A-DS 09 A/KG-T4S 
-0
-11
-11
-footprints-pretty
-DB9_Female
-
-A-DS 09 A/KG-T4S 
-0
-11
-11
