@@ -5,8 +5,9 @@
 	(uuid "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a")
 	(paper "USLetter")
 	(title_block
-		(title "SparkFun DB9 Breakout")
-		(rev "v10")
+		(title "SparkFun DE9 Breakout")
+		(date "2025-10-21")
+		(rev "v11")
 		(company "SparkFun Electronics")
 		(comment 1 "Designed by: Elias Santistevan")
 	)
@@ -1419,7 +1420,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:DE9_Male"
+		(symbol "SparkFun-Connector:DE9_Header_Horizontal_PTH"
 			(pin_names
 				(hide yes)
 			)
@@ -1434,7 +1435,7 @@
 					)
 				)
 			)
-			(property "Value" "DE9 Male"
+			(property "Value" "DE9 Header"
 				(at 0.254 -11.176 0)
 				(effects
 					(font
@@ -1442,7 +1443,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:DE9_Male"
+			(property "Footprint" "SparkFun-Connector:DE9_Header_Horizontal_PTH"
 				(at 0 -14.986 0)
 				(effects
 					(font
@@ -1469,7 +1470,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DE9, DB9, RS232"
+			(property "PROD_ID" "CONN-9904"
+				(at -0.254 -21.336 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "SparkFun DE9, DB9, RS232 D-SUB DSUB Male connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1478,7 +1488,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DE9_Male_0_1"
+			(symbol "DE9_Header_Horizontal_PTH_0_1"
 				(polyline
 					(pts
 						(xy -2.54 -8.89) (xy -2.54 8.89) (xy 2.54 5.08) (xy 2.54 -5.08) (xy -2.54 -8.89)
@@ -1492,7 +1502,7 @@
 					)
 				)
 			)
-			(symbol "DE9_Male_1_1"
+			(symbol "DE9_Header_Horizontal_PTH_1_1"
 				(circle
 					(center -1.27 5.08)
 					(radius 0.635)
@@ -1987,23 +1997,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 95.25) (xy 71.12 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18754715-8a1f-49b4-917f-5dc9da81876e")
-	)
-	(wire
-		(pts
 			(xy 67.31 87.63) (xy 71.12 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2324a6d3-90b5-4d59-a707-b57de03dfa3a")
+		(uuid "1228799c-8df2-404e-a11b-3bff988013c2")
 	)
 	(wire
 		(pts
@@ -2017,13 +2017,23 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 97.79) (xy 73.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "368c723e-563c-4cd2-bdb2-a267be3ccf91")
+	)
+	(wire
+		(pts
 			(xy 67.31 100.33) (xy 72.39 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3acd4529-01f6-4921-8d5d-cc608710a8c3")
+		(uuid "3a491b3b-1ed8-4b26-a63f-c6a2bc755797")
 	)
 	(wire
 		(pts
@@ -2047,16 +2057,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 105.41) (xy 88.9 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cfd7477-9e78-4dd1-b27d-fc36cba16c87")
-	)
-	(wire
-		(pts
 			(xy 88.9 93.98) (xy 88.9 105.41)
 		)
 		(stroke
@@ -2064,16 +2064,6 @@
 			(type default)
 		)
 		(uuid "61a03bde-9e94-402f-8adf-64494c40ea66")
-	)
-	(wire
-		(pts
-			(xy 67.31 90.17) (xy 71.12 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64874069-9857-4d0f-867c-b50695de2a8c")
 	)
 	(wire
 		(pts
@@ -2087,16 +2077,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 92.71) (xy 71.12 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4ce4c0-0fb9-46fd-a198-5c9d2dc2ee08")
-	)
-	(wire
-		(pts
 			(xy 87.63 102.87) (xy 87.63 91.44)
 		)
 		(stroke
@@ -2104,6 +2084,16 @@
 			(type default)
 		)
 		(uuid "6ebde37c-40b8-49dc-985b-53280c672c5a")
+	)
+	(wire
+		(pts
+			(xy 67.31 102.87) (xy 87.63 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7daf9ded-f29b-4652-ba58-73460da5bc1f")
 	)
 	(wire
 		(pts
@@ -2125,6 +2115,16 @@
 		)
 		(uuid "879e402f-e323-4af0-8607-fbe24d0cee51")
 	)
+	(wire
+		(pts
+			(xy 67.31 95.25) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c1e54a-e0c5-45cd-8d3f-1354ba4a2cef")
+	)
 	(polyline
 		(pts
 			(xy 139.7 11.43) (xy 139.7 203.2)
@@ -2134,6 +2134,16 @@
 			(type dash)
 		)
 		(uuid "8d84abf0-14cc-4365-8bea-014ff5e21ddd")
+	)
+	(wire
+		(pts
+			(xy 67.31 85.09) (xy 71.12 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94ecc1dd-9f2d-46ba-bafb-25cbb0c2fd82")
 	)
 	(wire
 		(pts
@@ -2157,6 +2167,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 105.41) (xy 88.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b87e11c7-1c71-41b0-9938-d4276a2f5d7f")
+	)
+	(wire
+		(pts
 			(xy 73.66 97.79) (xy 73.66 100.33)
 		)
 		(stroke
@@ -2164,16 +2184,6 @@
 			(type default)
 		)
 		(uuid "bbac89b5-0a91-42f2-b29f-7ca5dbaf1ef6")
-	)
-	(wire
-		(pts
-			(xy 67.31 97.79) (xy 73.66 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d392f729-0a92-44a8-80db-424b03673b02")
 	)
 	(wire
 		(pts
@@ -2187,13 +2197,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 85.09) (xy 71.12 85.09)
+			(xy 67.31 92.71) (xy 71.12 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e3fb59fb-6f84-4551-927e-176fafe137e6")
+		(uuid "edff3527-91a4-4b6a-acdc-6f622dbaa089")
 	)
 	(wire
 		(pts
@@ -2207,6 +2217,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 90.17) (xy 71.12 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee58e434-1d92-423b-8676-30c58e0b013b")
+	)
+	(wire
+		(pts
 			(xy 85.09 100.33) (xy 85.09 86.36)
 		)
 		(stroke
@@ -2214,16 +2234,6 @@
 			(type default)
 		)
 		(uuid "ee786da2-3678-4786-be97-125a77f4581e")
-	)
-	(wire
-		(pts
-			(xy 67.31 102.87) (xy 87.63 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eed48085-c355-4d3e-ac28-78b8a8ed782a")
 	)
 	(wire
 		(pts
@@ -2244,6 +2254,335 @@
 			(type default)
 		)
 		(uuid "f7603c8d-752f-4607-b044-98d3a1a7d305")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 7.62 31.75)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Pin 1"
+				(exclude_from_sim no)
+				(at 187.579 74.168 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "03d02831-8f68-4377-ac63-12f2d741976e")
+			)
+			(table_cell "Carrier Detect (CD)"
+				(exclude_from_sim no)
+				(at 195.199 74.168 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ea6f342f-001f-4b1d-93c7-319cefcb542e")
+			)
+			(table_cell "Pin 2"
+				(exclude_from_sim no)
+				(at 187.579 76.708 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5b4bf7d6-782f-4a89-bf9d-78f2298fd6a1")
+			)
+			(table_cell "Receive Data (RXD)"
+				(exclude_from_sim no)
+				(at 195.199 76.708 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d2928e1a-6b28-41b3-9544-5085df9a3e78")
+			)
+			(table_cell "Pin 3"
+				(exclude_from_sim no)
+				(at 187.579 79.248 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "87d2cc94-e496-475b-8e94-a97ff70d7a35")
+			)
+			(table_cell "Transmit Data (TXD)"
+				(exclude_from_sim no)
+				(at 195.199 79.248 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "67f051af-af77-46a8-9d31-2f8f855d17fe")
+			)
+			(table_cell "Pin 4"
+				(exclude_from_sim no)
+				(at 187.579 81.788 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0308acba-40f8-4661-ac39-d2bba006bfa6")
+			)
+			(table_cell "Data Terminal Ready (DTR)"
+				(exclude_from_sim no)
+				(at 195.199 81.788 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e655809b-86b8-445d-8e0a-9566818efdcc")
+			)
+			(table_cell "Pin 5"
+				(exclude_from_sim no)
+				(at 187.579 84.328 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b22abc82-f2b9-4aab-982f-aa2c91fdaed7")
+			)
+			(table_cell "Ground (GND)"
+				(exclude_from_sim no)
+				(at 195.199 84.328 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ebb72c6f-65fc-4ae2-ab55-cd527db91047")
+			)
+			(table_cell "Pin 6"
+				(exclude_from_sim no)
+				(at 187.579 86.868 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b806d077-35ec-4910-ac97-f620bf12e70a")
+			)
+			(table_cell "Data Set Ready (DSR)"
+				(exclude_from_sim no)
+				(at 195.199 86.868 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "756328aa-ee99-40b4-80f2-f73a72db1b27")
+			)
+			(table_cell "Pin 7"
+				(exclude_from_sim no)
+				(at 187.579 89.408 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1a94e525-dfb2-48eb-8d0b-09f457f8a6ed")
+			)
+			(table_cell "Request to Send (RTS)"
+				(exclude_from_sim no)
+				(at 195.199 89.408 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "96f3dd2a-b22a-4885-bc5b-acde47e7b1b5")
+			)
+			(table_cell "Pin 8"
+				(exclude_from_sim no)
+				(at 187.579 91.948 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fd2e6625-40ce-45a0-bc1e-1cda08c19200")
+			)
+			(table_cell "Clear to Send (CTS)"
+				(exclude_from_sim no)
+				(at 195.199 91.948 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "00d89856-18c3-471a-87a6-8ddcbf97f917")
+			)
+			(table_cell "Pin 9"
+				(exclude_from_sim no)
+				(at 187.579 94.488 0)
+				(size 7.62 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4edd2578-bd54-481c-ae0f-257cc9cdd47c")
+			)
+			(table_cell "Ring Indicator (RI)"
+				(exclude_from_sim no)
+				(at 195.199 94.488 0)
+				(size 31.75 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dd53337e-3afa-4f3e-b41d-f145f9540d62")
+			)
+		)
 	)
 	(table
 		(column_count 2)
@@ -2574,337 +2913,8 @@
 			)
 		)
 	)
-	(table
-		(column_count 2)
-		(border
-			(external yes)
-			(header yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(separators
-			(rows yes)
-			(cols yes)
-			(stroke
-				(width 0)
-				(type solid)
-			)
-		)
-		(column_widths 7.62 31.75)
-		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
-		(cells
-			(table_cell "Pin 1"
-				(exclude_from_sim no)
-				(at 187.579 74.168 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "03d02831-8f68-4377-ac63-12f2d741976e")
-			)
-			(table_cell "Ground (GND)"
-				(exclude_from_sim no)
-				(at 195.199 74.168 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "ea6f342f-001f-4b1d-93c7-319cefcb542e")
-			)
-			(table_cell "Pin 2"
-				(exclude_from_sim no)
-				(at 187.579 76.708 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "5b4bf7d6-782f-4a89-bf9d-78f2298fd6a1")
-			)
-			(table_cell "Data Terminal Ready (DTR)"
-				(exclude_from_sim no)
-				(at 195.199 76.708 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "d2928e1a-6b28-41b3-9544-5085df9a3e78")
-			)
-			(table_cell "Pin 3"
-				(exclude_from_sim no)
-				(at 187.579 79.248 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "87d2cc94-e496-475b-8e94-a97ff70d7a35")
-			)
-			(table_cell "Received Data (RXD)"
-				(exclude_from_sim no)
-				(at 195.199 79.248 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "67f051af-af77-46a8-9d31-2f8f855d17fe")
-			)
-			(table_cell "Pin 4"
-				(exclude_from_sim no)
-				(at 187.579 81.788 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "0308acba-40f8-4661-ac39-d2bba006bfa6")
-			)
-			(table_cell "Transmit (TXD)"
-				(exclude_from_sim no)
-				(at 195.199 81.788 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "e655809b-86b8-445d-8e0a-9566818efdcc")
-			)
-			(table_cell "Pin 5"
-				(exclude_from_sim no)
-				(at 187.579 84.328 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "b22abc82-f2b9-4aab-982f-aa2c91fdaed7")
-			)
-			(table_cell "Data Carrier Detect (DCD)"
-				(exclude_from_sim no)
-				(at 195.199 84.328 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "ebb72c6f-65fc-4ae2-ab55-cd527db91047")
-			)
-			(table_cell "Pin 6"
-				(exclude_from_sim no)
-				(at 187.579 86.868 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "b806d077-35ec-4910-ac97-f620bf12e70a")
-			)
-			(table_cell "Ring Indicator (RI)"
-				(exclude_from_sim no)
-				(at 195.199 86.868 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "756328aa-ee99-40b4-80f2-f73a72db1b27")
-			)
-			(table_cell "Pin 7"
-				(exclude_from_sim no)
-				(at 187.579 89.408 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "1a94e525-dfb2-48eb-8d0b-09f457f8a6ed")
-			)
-			(table_cell "Ready to Send (RTS)"
-				(exclude_from_sim no)
-				(at 195.199 89.408 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "96f3dd2a-b22a-4885-bc5b-acde47e7b1b5")
-			)
-			(table_cell "Pin 8"
-				(exclude_from_sim no)
-				(at 187.579 91.948 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "fd2e6625-40ce-45a0-bc1e-1cda08c19200")
-			)
-			(table_cell "Clear to Send (CTS)"
-				(exclude_from_sim no)
-				(at 195.199 91.948 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "00d89856-18c3-471a-87a6-8ddcbf97f917")
-			)
-			(table_cell "Pin 9"
-				(exclude_from_sim no)
-				(at 187.579 94.488 0)
-				(size 7.62 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "4edd2578-bd54-481c-ae0f-257cc9cdd47c")
-			)
-			(table_cell "Data Set Ready (DSR)"
-				(exclude_from_sim no)
-				(at 195.199 94.488 0)
-				(size 31.75 2.54)
-				(margins 0.9525 0.9525 0.9525 0.9525)
-				(span 1 1)
-				(fill
-					(type none)
-				)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-				(uuid "dd53337e-3afa-4f3e-b41d-f145f9540d62")
-			)
-		)
-	)
 	(label "6"
-		(at 68.58 97.79 0)
+		(at 68.58 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2914,7 +2924,7 @@
 		(uuid "0c9a1472-59a6-4411-8c44-130ebb841294")
 	)
 	(label "7"
-		(at 68.58 100.33 0)
+		(at 68.58 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2924,7 +2934,7 @@
 		(uuid "12178b2b-16e0-4504-bc4c-72ef35f1d624")
 	)
 	(label "1"
-		(at 68.58 85.09 0)
+		(at 68.58 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2934,7 +2944,7 @@
 		(uuid "5199ea2b-4fd2-4c72-8d51-2632ed406b1e")
 	)
 	(label "5"
-		(at 68.58 95.25 0)
+		(at 68.58 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,7 +2954,7 @@
 		(uuid "6f11d6ff-28ee-4169-88f9-f75c088678f1")
 	)
 	(label "4"
-		(at 68.58 92.71 0)
+		(at 68.58 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2964,7 +2974,7 @@
 		(uuid "c25913a7-a0bf-4c18-b1ab-b4d2daf22c06")
 	)
 	(label "9"
-		(at 68.58 105.41 0)
+		(at 68.58 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2974,7 +2984,7 @@
 		(uuid "ce993cfb-fa45-4581-9837-d253a2b28240")
 	)
 	(label "8"
-		(at 68.58 102.87 0)
+		(at 68.58 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2984,7 +2994,7 @@
 		(uuid "d1a1e3a8-e524-4840-a317-9ab0471a0a30")
 	)
 	(label "2"
-		(at 68.58 87.63 0)
+		(at 68.58 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3115,6 +3125,104 @@
 			(project "SparkFun_Default_KiCad_Setup"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:DE9_Header_Horizontal_PTH")
+		(at 77.47 90.17 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "058dc225-26a1-489e-a1cb-56296c7b5a1e")
+		(property "Reference" "J3"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9 Header"
+			(at 80.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:DE9_Header_Horizontal_PTH"
+			(at 77.47 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
+			(at 80.01 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PROD_ID" "CONN-9904"
+			(at 77.216 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "6a5f7684-73f5-4bfc-9154-6e130a958bc8")
+		)
+		(pin "3"
+			(uuid "0d589e75-9d84-49c1-a4a8-b6ee953f0969")
+		)
+		(pin "4"
+			(uuid "d13ca14a-e3e3-4072-9843-35102c201e70")
+		)
+		(pin "5"
+			(uuid "71c3c5c6-8fea-46b1-a283-b41efa5e0f55")
+		)
+		(pin "6"
+			(uuid "64815705-4d87-4e34-9bf6-55d31d29ad9a")
+		)
+		(pin "1"
+			(uuid "225a3fde-c2ed-4f90-8eed-43f083fa6cae")
+		)
+		(pin "9"
+			(uuid "02750a1f-3851-4451-b525-7dd14cc9fbd5")
+		)
+		(pin "2"
+			(uuid "133deab8-d12e-4093-9df2-f791675d7dfe")
+		)
+		(pin "7"
+			(uuid "360c8bfd-c556-4ec1-ab4b-94809195589b")
+		)
+		(instances
+			(project ""
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3398,95 +3506,6 @@
 			(project "SparkFun_Default_KiCad_Setup"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:DE9_Male")
-		(at 77.47 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d6ab88f-b912-4b44-be64-2f5f579d490a")
-		(property "Reference" "J3"
-			(at 77.47 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DE9 Male"
-			(at 77.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:DE9_Male"
-			(at 77.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
-			(at 80.264 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "5aa6263f-c736-459c-8fb7-cd09b94627e0")
-		)
-		(pin "6"
-			(uuid "fcb2beb7-b5bf-4013-97ce-80452c589eba")
-		)
-		(pin "7"
-			(uuid "1e799610-2eec-4faa-8441-db0b931d6b01")
-		)
-		(pin "4"
-			(uuid "add2708b-d344-42eb-adbe-18319265aacf")
-		)
-		(pin "3"
-			(uuid "c6aba9b0-2195-4a7a-80a2-d4f11d8017b9")
-		)
-		(pin "5"
-			(uuid "100008ca-c64a-473a-9bbf-d50dd939fd50")
-		)
-		(pin "9"
-			(uuid "1ec932f1-7259-4cb9-ae4d-438f137e0ebf")
-		)
-		(pin "2"
-			(uuid "f6c4851a-d88b-4dcd-94f9-b0cd83d5cbbc")
-		)
-		(pin "1"
-			(uuid "698cce95-77e2-47f7-9d8d-bb9310ffd2e3")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J3")
 					(unit 1)
 				)
 			)
