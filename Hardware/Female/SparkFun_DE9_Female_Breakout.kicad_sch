@@ -2773,7 +2773,7 @@
 				)
 				(uuid "b806d077-35ec-4910-ac97-f620bf12e70a")
 			)
-			(table_cell "Request to send (RTS) "
+			(table_cell "Data Set Ready (DSR)"
 				(exclude_from_sim no)
 				(at 187.96 85.09 0)
 				(size 31.75 2.54)
