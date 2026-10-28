@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "e3dd3ae4-244d-4cba-9cca-5d2abf83f29a")
 	(paper "USLetter")
 	(title_block
@@ -19,58 +19,72 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "G"
 				(at 0 16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "OSHW_Logo"
 				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "SparkFun-Aesthetic:Creative_Commons_License"
 				(at 0.2047 -0.0243 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0.2047 -0.0243 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun Open Source Hardware Logo"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "OSHW_Logo_0_0"
@@ -662,49 +676,61 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "G"
 				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "SparkFun_Logo"
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" ""
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 3.813 3.7988 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SparkFun_Logo_0_0"
@@ -970,8 +996,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -980,6 +1010,8 @@
 			)
 			(property "Value" "Conn_01x01"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -988,47 +1020,57 @@
 			)
 			(property "Footprint" "SparkFun-Connector:1x01"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Basic 0.1\" PTH"
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x01_1_1"
@@ -1083,8 +1125,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1093,6 +1139,8 @@
 			)
 			(property "Value" "Conn_01x09"
 				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1101,47 +1149,57 @@
 			)
 			(property "Footprint" "SparkFun-Connector:1x09"
 				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Basic 0.1\" PTH"
 				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_01x09_1_1"
@@ -1427,8 +1485,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1437,6 +1499,8 @@
 			)
 			(property "Value" "DE9 Header"
 				(at 0.254 -11.176 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1445,47 +1509,57 @@
 			)
 			(property "Footprint" "SparkFun-Connector:DE9_Header_Horizontal_PTH"
 				(at 0 -14.986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
 				(at 2.54 -18.288 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "9 pin serial male connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "PROD_ID" "CONN-9904"
 				(at -0.254 -21.336 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun DE9, DB9, RS232 D-SUB DSUB Male connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "DE9_Header_Horizontal_PTH_0_1"
@@ -1603,7 +1677,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 5.08 0)
+					(at -6.35 -5.08 0)
 					(length 3.81)
 					(name "1"
 						(effects
@@ -1621,7 +1695,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 2.54 0)
+					(at -6.35 -2.54 0)
 					(length 3.81)
 					(name "2"
 						(effects
@@ -1657,7 +1731,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -2.54 0)
+					(at -6.35 2.54 0)
 					(length 3.81)
 					(name "4"
 						(effects
@@ -1675,7 +1749,7 @@
 					)
 				)
 				(pin passive line
-					(at -6.35 -5.08 0)
+					(at -6.35 5.08 0)
 					(length 3.81)
 					(name "5"
 						(effects
@@ -1693,7 +1767,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 3.81 180)
+					(at 6.35 -3.81 180)
 					(length 3.81)
 					(name "6"
 						(effects
@@ -1711,7 +1785,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 1.27 180)
+					(at 6.35 -1.27 180)
 					(length 3.81)
 					(name "7"
 						(effects
@@ -1729,7 +1803,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -1.27 180)
+					(at 6.35 1.27 180)
 					(length 3.81)
 					(name "8"
 						(effects
@@ -1747,7 +1821,7 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -3.81 180)
+					(at 6.35 3.81 180)
 					(length 3.81)
 					(name "9"
 						(effects
@@ -1771,67 +1845,83 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "ST"
 				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "Standoff"
 				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Footprint" "SparkFun-Hardware:Standoff"
 				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
 				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun #4 screw stand off"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Fiducial*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Standoff_1_1"
@@ -1850,25 +1940,30 @@
 			(embedded_fonts no)
 		)
 		(symbol "SparkFun-PowerSymbol:GND"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
-				(do_not_autoplace)
+				(show_name no)
+				(do_not_autoplace yes)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1877,38 +1972,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "SparkFun global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1997,53 +2100,83 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 87.63) (xy 71.12 87.63)
+			(xy 67.31 91.44) (xy 76.2 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1228799c-8df2-404e-a11b-3bff988013c2")
+		(uuid "0628b551-44a4-46ea-b618-c1b6fd2f02e5")
 	)
 	(wire
 		(pts
-			(xy 72.39 101.6) (xy 72.39 100.33)
+			(xy 99.06 82.55) (xy 73.66 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23f89ddf-b945-4cb8-b8fb-2e2921126c3b")
+		(uuid "09bff833-f602-4040-900f-7dbf81441568")
 	)
 	(wire
 		(pts
-			(xy 67.31 97.79) (xy 73.66 97.79)
+			(xy 67.31 88.9) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "368c723e-563c-4cd2-bdb2-a267be3ccf91")
+		(uuid "17164ca0-ca05-4d54-9931-d8521f557d3e")
 	)
 	(wire
 		(pts
-			(xy 67.31 100.33) (xy 72.39 100.33)
+			(xy 104.14 77.47) (xy 68.58 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a491b3b-1ed8-4b26-a63f-c6a2bc755797")
+		(uuid "30ff1662-3ca7-4cfb-851a-c97d3c9a18ea")
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 86.36 101.6)
+			(xy 96.52 85.09) (xy 76.2 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a6b63f3-78d7-49de-82d1-eaf33f3fd526")
+		(uuid "375e69b6-319e-440a-bfd4-968aa86c06ec")
+	)
+	(wire
+		(pts
+			(xy 67.31 96.52) (xy 76.2 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39375a0d-8622-4b98-a1e8-b25eab3e9c2e")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 76.2 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a744d4f-4f70-471f-b4ec-9589e124925e")
+	)
+	(wire
+		(pts
+			(xy 96.52 100.33) (xy 96.52 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f0e66fa-effc-4588-b03a-fc3529dbddf8")
 	)
 	(wire
 		(pts
@@ -2057,73 +2190,73 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 93.98) (xy 88.9 105.41)
+			(xy 67.31 101.6) (xy 76.2 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61a03bde-9e94-402f-8adf-64494c40ea66")
+		(uuid "60cbc6c0-522e-4bf1-a6b6-5d00fe915031")
 	)
 	(wire
 		(pts
-			(xy 85.09 86.36) (xy 83.82 86.36)
+			(xy 67.31 81.28) (xy 68.58 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b818351-9b28-4407-b2d6-3f37ae61b509")
+		(uuid "730c12db-81c5-4b88-9948-cd79086b008c")
 	)
 	(wire
 		(pts
-			(xy 87.63 102.87) (xy 87.63 91.44)
+			(xy 73.66 82.55) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6ebde37c-40b8-49dc-985b-53280c672c5a")
+		(uuid "766c2a30-9e6d-4028-a2a1-4f13e9911722")
 	)
 	(wire
 		(pts
-			(xy 67.31 102.87) (xy 87.63 102.87)
+			(xy 67.31 86.36) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7daf9ded-f29b-4652-ba58-73460da5bc1f")
+		(uuid "76c41028-8f8b-44e0-9bfc-dddb57a04b89")
 	)
 	(wire
 		(pts
-			(xy 83.82 93.98) (xy 88.9 93.98)
+			(xy 88.9 92.71) (xy 104.14 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8240b789-65e7-49cb-aab5-6bdadb6d3e0c")
+		(uuid "7ee161c4-f1f8-4169-b590-e529abfde613")
 	)
 	(wire
 		(pts
-			(xy 86.36 101.6) (xy 72.39 101.6)
+			(xy 101.6 80.01) (xy 71.12 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "879e402f-e323-4af0-8607-fbe24d0cee51")
+		(uuid "80339861-fc76-45dc-95a6-e7df96f0d694")
 	)
 	(wire
 		(pts
-			(xy 67.31 95.25) (xy 71.12 95.25)
+			(xy 67.31 99.06) (xy 76.2 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88c1e54a-e0c5-45cd-8d3f-1354ba4a2cef")
+		(uuid "83edab8c-8efb-40a2-a39f-803828724125")
 	)
 	(polyline
 		(pts
@@ -2137,23 +2270,53 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 85.09) (xy 71.12 85.09)
+			(xy 68.58 77.47) (xy 68.58 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "94ecc1dd-9f2d-46ba-bafb-25cbb0c2fd82")
+		(uuid "95cb61e8-82ce-44de-9b8c-45c59a3cc163")
 	)
 	(wire
 		(pts
-			(xy 73.66 100.33) (xy 85.09 100.33)
+			(xy 104.14 92.71) (xy 104.14 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a2901d9-c44c-4ef7-8574-1bb4f3a6835c")
+		(uuid "9cbe0b1d-8cb3-41d6-8234-1a78f745b8bc")
+	)
+	(wire
+		(pts
+			(xy 99.06 97.79) (xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3cb482-d93b-4a9e-87ae-6e5717e89533")
+	)
+	(wire
+		(pts
+			(xy 88.9 100.33) (xy 96.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e2b061d-bf7b-407e-ab53-eb3eaccf094c")
+	)
+	(wire
+		(pts
+			(xy 71.12 80.01) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fdbd12-650a-4c19-a56a-cb59e8a92973")
 	)
 	(wire
 		(pts
@@ -2167,23 +2330,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 105.41) (xy 88.9 105.41)
+			(xy 76.2 85.09) (xy 76.2 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b87e11c7-1c71-41b0-9938-d4276a2f5d7f")
-	)
-	(wire
-		(pts
-			(xy 73.66 97.79) (xy 73.66 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbac89b5-0a91-42f2-b29f-7ca5dbaf1ef6")
+		(uuid "ba7b75a4-cb11-4944-9076-e77776c33a16")
 	)
 	(wire
 		(pts
@@ -2197,43 +2350,33 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 92.71) (xy 71.12 92.71)
+			(xy 88.9 97.79) (xy 99.06 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edff3527-91a4-4b6a-acdc-6f622dbaa089")
+		(uuid "daf2b370-ffc7-4f2f-b48f-b5cad0ce3ce4")
 	)
 	(wire
 		(pts
-			(xy 83.82 88.9) (xy 86.36 88.9)
+			(xy 101.6 95.25) (xy 101.6 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee47d319-e046-43cc-8707-be85b74afe49")
+		(uuid "df8f2542-4813-42a3-afd7-281d227304b2")
 	)
 	(wire
 		(pts
-			(xy 67.31 90.17) (xy 71.12 90.17)
+			(xy 88.9 95.25) (xy 101.6 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ee58e434-1d92-423b-8676-30c58e0b013b")
-	)
-	(wire
-		(pts
-			(xy 85.09 100.33) (xy 85.09 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee786da2-3678-4786-be97-125a77f4581e")
+		(uuid "efd5425b-394f-41ce-8bb9-cabda17a7c15")
 	)
 	(wire
 		(pts
@@ -2247,13 +2390,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 91.44) (xy 83.82 91.44)
+			(xy 67.31 83.82) (xy 71.12 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7603c8d-752f-4607-b044-98d3a1a7d305")
+		(uuid "ff4b1063-dec2-4656-abe6-dda5c8d1ec26")
 	)
 	(table
 		(column_count 2)
@@ -2275,6 +2418,7 @@
 		)
 		(column_widths 7.62 31.75)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(uuid "7797eae8-1c09-4e32-bbaf-ab02777ba92b")
 		(cells
 			(table_cell "Pin 1"
 				(exclude_from_sim no)
@@ -2604,6 +2748,7 @@
 		)
 		(column_widths 7.62 20.32)
 		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(uuid "aacd49ed-a29e-4d86-9bb2-3c0681f08e23")
 		(cells
 			(table_cell "Pin 1"
 				(exclude_from_sim no)
@@ -2913,107 +3058,21 @@
 			)
 		)
 	)
-	(label "6"
-		(at 68.58 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c9a1472-59a6-4411-8c44-130ebb841294")
-	)
-	(label "7"
-		(at 68.58 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "12178b2b-16e0-4504-bc4c-72ef35f1d624")
-	)
-	(label "1"
-		(at 68.58 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5199ea2b-4fd2-4c72-8d51-2632ed406b1e")
-	)
-	(label "5"
-		(at 68.58 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f11d6ff-28ee-4169-88f9-f75c088678f1")
-	)
-	(label "4"
-		(at 68.58 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b1fac625-79cf-4509-b259-a374969d7329")
-	)
-	(label "3"
-		(at 68.58 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c25913a7-a0bf-4c18-b1ab-b4d2daf22c06")
-	)
-	(label "9"
-		(at 68.58 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce993cfb-fa45-4581-9837-d253a2b28240")
-	)
-	(label "8"
-		(at 68.58 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1a1e3a8-e524-4840-a317-9ab0471a0a30")
-	)
-	(label "2"
-		(at 68.58 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e28c9f22-3a2f-425e-81c2-6cc583d60aea")
-	)
 	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x01")
 		(at 62.23 116.84 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "004be2ed-0641-4d26-9325-00152ecccd01")
 		(property "Reference" "J4"
 			(at 61.976 119.888 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3022,6 +3081,8 @@
 		)
 		(property "Value" "Conn_01x01"
 			(at 54.864 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3030,36 +3091,42 @@
 		)
 		(property "Footprint" "SparkFun-Connector:1x01"
 			(at 62.23 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Basic 0.1\" PTH"
 			(at 62.23 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "0ec8a0fb-a608-4475-8922-10841ff60c34")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J4")
 					(unit 1)
@@ -3071,158 +3138,72 @@
 		(lib_id "SparkFun-Hardware:Standoff")
 		(at 254 175.26 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "01446c66-91f5-46d5-b726-b2bbfbf726eb")
 		(property "Reference" "ST2"
 			(at 254 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Stand_off"
 			(at 254 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Hardware:Standoff"
 			(at 254 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 254 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
 			(at 254 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Connector:DE9_Header_Horizontal_PTH")
-		(at 77.47 90.17 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "058dc225-26a1-489e-a1cb-56296c7b5a1e")
-		(property "Reference" "J3"
-			(at 76.2 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DE9 Header"
-			(at 80.01 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Connector:DE9_Header_Horizontal_PTH"
-			(at 77.47 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
-			(at 80.01 71.882 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "CONN-9904"
-			(at 77.216 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "6a5f7684-73f5-4bfc-9154-6e130a958bc8")
-		)
-		(pin "3"
-			(uuid "0d589e75-9d84-49c1-a4a8-b6ee953f0969")
-		)
-		(pin "4"
-			(uuid "d13ca14a-e3e3-4072-9843-35102c201e70")
-		)
-		(pin "5"
-			(uuid "71c3c5c6-8fea-46b1-a283-b41efa5e0f55")
-		)
-		(pin "6"
-			(uuid "64815705-4d87-4e34-9bf6-55d31d29ad9a")
-		)
-		(pin "1"
-			(uuid "225a3fde-c2ed-4f90-8eed-43f083fa6cae")
-		)
-		(pin "9"
-			(uuid "02750a1f-3851-4451-b525-7dd14cc9fbd5")
-		)
-		(pin "2"
-			(uuid "133deab8-d12e-4093-9df2-f791675d7dfe")
-		)
-		(pin "7"
-			(uuid "360c8bfd-c556-4ec1-ab4b-94809195589b")
-		)
-		(instances
-			(project ""
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3232,59 +3213,71 @@
 		(lib_id "SparkFun-Aesthetic:SparkFun_Logo")
 		(at 213.36 167.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f71d36e-2564-4a65-a00f-3b68769ddaf6")
 		(property "Reference" "G1"
 			(at 213.36 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SparkFun_Logo"
 			(at 213.36 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Aesthetic:SparkFun_Logo_8mm"
 			(at 213.36 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 217.173 163.8412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 213.36 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G1")
 					(unit 1)
@@ -3296,23 +3289,28 @@
 		(lib_id "SparkFun-PowerSymbol:GND")
 		(at 68.58 118.11 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a282d0c-81f3-4cfe-915a-44da3e13d060")
 		(property "Reference" "#PWR01"
 			(at 68.58 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 68.58 121.92 0)
+			(show_name no)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -3322,36 +3320,42 @@
 		)
 		(property "Footprint" ""
 			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "d9536528-d3e6-4fdd-8bd4-e3e3b7c9741b")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR01")
 					(unit 1)
@@ -3361,16 +3365,19 @@
 	)
 	(symbol
 		(lib_id "SparkFun-Connector:Conn_01x09")
-		(at 62.23 95.25 0)
-		(mirror y)
+		(at 62.23 91.44 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a5e9097-21b6-4aaa-babf-abb539e1e8ec")
 		(property "Reference" "J2"
-			(at 62.23 81.534 0)
+			(at 62.23 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3385,9 @@
 			)
 		)
 		(property "Value" "Conn_01x09"
-			(at 62.23 109.22 0)
+			(at 62.23 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,30 +3395,36 @@
 			)
 		)
 		(property "Footprint" "SparkFun-Connector:1x09"
-			(at 62.23 110.49 0)
+			(at 62.23 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 62.23 113.03 0)
+		(property "Datasheet" ""
+			(at 62.23 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Basic 0.1\" PTH"
-			(at 62.23 115.57 0)
+			(at 62.23 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "9"
@@ -3440,7 +3455,7 @@
 			(uuid "ccbbf780-b6c4-45de-9150-58ae62b5f669")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J2")
 					(unit 1)
@@ -3452,60 +3467,183 @@
 		(lib_id "SparkFun-Hardware:Standoff")
 		(at 250.19 175.26 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6685cf0a-6943-4c54-8d4f-b9f189ce2a54")
 		(property "Reference" "ST1"
 			(at 250.19 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "Stand_off"
 			(at 250.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Hardware:Standoff"
 			(at 250.19 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 250.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
 			(at 250.19 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "ST1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SparkFun-Connector:DE9_Header_Horizontal_PTH")
+		(at 82.55 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8512f15c-2038-446c-9509-b5eaef242151")
+		(property "Reference" "J3"
+			(at 82.55 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE9 Header"
+			(at 82.55 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SparkFun-Connector:DE9_Header_Horizontal_PTH"
+			(at 82.55 111.506 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411220417_XUNPU-D-SUB-DR-9PCM-CB_C19077337.pdf"
+			(at 85.09 114.808 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "9 pin serial male connector"
+			(at 82.55 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PROD_ID" "CONN-9904"
+			(at 82.296 117.856 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "dc94d0da-9784-4301-92a2-05f34b898aaf")
+		)
+		(pin "2"
+			(uuid "42e5f42f-6a25-41b6-ab65-a6e657e466a4")
+		)
+		(pin "1"
+			(uuid "c8f3c618-ddcf-4f2f-8c6e-550b663fbaf7")
+		)
+		(pin "9"
+			(uuid "01751070-6a53-47a9-aff7-c14ec7615a75")
+		)
+		(pin "4"
+			(uuid "159d96e7-f501-46c4-9499-edfdaa896fa7")
+		)
+		(pin "3"
+			(uuid "1fde74d0-e730-4e84-8481-8ff6fc7df83c")
+		)
+		(pin "6"
+			(uuid "c6fbc3de-39d3-4045-a07f-76f14fc12690")
+		)
+		(pin "7"
+			(uuid "a7be78a6-bd93-402d-a0a9-0467c09b2561")
+		)
+		(pin "8"
+			(uuid "26be44de-018e-48b0-8d49-8eae1dddc77c")
+		)
+		(instances
+			(project "SparkFun_DE9_Male_Breakout"
+				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -3515,59 +3653,71 @@
 		(lib_id "SparkFun-Aesthetic:OSHW_Logo")
 		(at 255.27 163.83 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a21e6db0-b885-4793-a405-9dcb22fe3734")
 		(property "Reference" "G3"
 			(at 255.27 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "OSHW_Logo"
 			(at 255.27 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Aesthetic:Creative_Commons_License"
 			(at 255.4747 163.8543 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 255.4747 163.8543 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 255.27 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G3")
 					(unit 1)
@@ -3579,59 +3729,71 @@
 		(lib_id "SparkFun-Aesthetic:SparkFun_Logo")
 		(at 213.36 167.64 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2decde1-62d4-4670-a064-d07726e72b30")
 		(property "Reference" "G2"
 			(at 213.36 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SparkFun_Logo"
 			(at 213.36 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 213.36 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 217.173 163.8412 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 213.36 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
-			(project "SparkFun_Default_KiCad_Setup"
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G2")
 					(unit 1)
@@ -3643,13 +3805,17 @@
 		(lib_id "SparkFun-Connector:Conn_01x01")
 		(at 62.23 114.3 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9dcf280-4b61-406f-989c-3b262ca866a2")
 		(property "Reference" "J1"
 			(at 62.23 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3658,6 +3824,8 @@
 		)
 		(property "Value" "Conn_01x01"
 			(at 54.864 114.554 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3666,36 +3834,42 @@
 		)
 		(property "Footprint" "SparkFun-Connector:1x01"
 			(at 62.23 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Basic 0.1\" PTH"
 			(at 62.23 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9ee71b9d-b573-4238-9874-70018125af62")
 		)
 		(instances
-			(project ""
+			(project "SparkFun_DE9_Male_Breakout"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "J1")
 					(unit 1)
